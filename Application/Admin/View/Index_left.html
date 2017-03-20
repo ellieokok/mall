@@ -1,0 +1,121 @@
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-dashboard"></i> <span>系统首页</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Index/index')}"><i class="fa "></i>系统首页</a></li>
+        <li><a href="{:U('Admin/Index/userChart')}"><i class="fa "></i>用户分析</a></li>
+        <li><a href="{:U('Admin/Index/orderChart')}"><i class="fa "></i>订单分析</a></li>
+        <li><a href="{:U('Admin/Index/productChart')}"><i class="fa "></i>商品分析</a></li>
+        <li><a href="{:U('Admin/Index/shopChart')}"><i class="fa "></i>店铺分析</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-gears"></i> <span>系统设置</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Config/configSet')}"><i class="fa "></i>系统设置</a></li>
+        <li><a href="{:U('Admin/Config/tplSet')}"><i class="fa "></i>模板设置</a></li>
+        <li><a href="{:U('Admin/Config/alipaySet')}"><i class="fa "></i>支付宝设置</a></li>
+        <!--<li><a href="{:U('Admin/Config/wxPrintSet')}"><i class="fa "></i>微信打印机设置</a></li>-->
+        <!--<li><a href="{:U('Admin/Config/smsSet')}"><i class="fa "></i>短信验证设置</a></li>-->
+        <li><a href="{:U('Admin/Config/wxTplMsgSet')}"><i class="fa "></i>微信模板消息设置</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-link"></i> <span>微信管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Weixin/wxSet')}"><i class="fa "></i>微信设置</a></li>
+        <li><a href="{:U('Admin/Weixin/wxMenuSet')}"><i class="fa "></i>微信菜单设置</a></li>
+        <li><a href="{:U('Admin/Weixin/wxReplySet')}"><i class="fa "></i>自定义回复设置</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-edit"></i> <span>文章管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Artical/artical')}"><i class="fa "></i>文章管理</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-shopping-cart"></i> <span>商城管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Shop/shop')}"><i class="fa "></i>店铺管理</a></li>
+        <li><a href="{:U('Admin/Shop/ads')}"><i class="fa "></i>广告管理</a></li>
+        <li><a href="{:U('Admin/Shop/menu')}"><i class="fa "></i>菜单管理</a></li>
+        <!-- <li><a href="{:U('Admin/Shop/label')}"><i class="fa "></i>标签管理</a></li> -->
+        <li><a href="{:U('Admin/Shop/product')}"><i class="fa "></i>商品管理</a></li>
+        <li><a href="{:U('Admin/Shop/comment')}"><i class="fa "></i>评论管理</a></li>
+        <!--<li><a href="{:U('Admin/Shop/feedback')}"><i class="fa "></i>反馈管理</a></li>-->
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-bar-chart"></i> <span>订单管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Order/order',array('day'=>date('Y-m-d')))}"><i class="fa "></i>当天订单</a></li>
+        <li><a href="{:U('Admin/Order/order')}"><i class="fa "></i>全部订单</a></li>
+        <li><a href="{:U('Admin/Order/order',array('pay_status'=>0))}"><i class="fa "></i>未付款</a></li>
+        <li><a href="{:U('Admin/Order/order',array('pay_status'=>1))}"><i class="fa "></i>已付款</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>0))}"><i class="fa "></i>未处理</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>1))}"><i class="fa "></i>已发货</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>-4))}"><i class="fa "></i>申请退货</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>-2))}"><i class="fa "></i>退货中</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>-3))}"><i class="fa "></i>退货完成</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>2))}"><i class="fa "></i>交易完成</a></li>
+        <li><a href="{:U('Admin/Order/order',array('status'=>-1))}"><i class="fa "></i>交易取消</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-credit-card"></i> <span>财务管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Trade/trade')}"><i class="fa "></i>财务管理</a></li>
+        <li><a href="{:U('Admin/Trade/tx')}"><i class="fa "></i>提现管理</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-group"></i> <span>用户管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/User/authGroup')}"><i class="fa "></i>用户组管理</a></li>
+        <li><a href="{:U('Admin/User/admin')}"><i class="fa "></i>管理员管理</a></li>
+        <li><a href="{:U('Admin/User/user')}"><i class="fa "></i>用户管理</a></li>
+        <li><a href="{:U('Admin/User/biz')}"><i class="fa "></i>商家管理</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-inbox"></i> <span>插件管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Admin/Addon/addon')}"><i class="fa "></i>插件管理</a></li>
+        <li><a href="{:U('Admin/Addon/addonShop')}"><i class="fa "></i>插件商店</a></li>
+    </ul>
+</li>

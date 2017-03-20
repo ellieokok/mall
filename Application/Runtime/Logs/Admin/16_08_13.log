@@ -1,0 +1,590 @@
+[ 2016-08-13T09:25:07+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-08-13T09:25:07+08:00 ] 127.0.0.1 /Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-08-13T09:25:12+08:00 ] 127.0.0.1 /Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-08-13T09:25:18+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-08-13T09:25:21+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-08-13T09:25:26+08:00 ] 127.0.0.1 /Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-08-13T09:25:31+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2] Declaration of Common\Model\AdminModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\AdminModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\AdminModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\AdminModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\AdminModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\AdminModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_admin` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_admin` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\AuthGroupAccessModel::add($user_id, $group_id) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-08-13T09:25:31+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+NOTIC: [2] Declaration of Common\Model\OrderModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\OrderModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\OrderModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\OrderModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\OrderModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\OrderModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\IndexController.class.php on line 9 and defined C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Common\Model\UserModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\IndexController.class.php on line 15 and defined C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\IndexController.class.php on line 18 and defined C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: ip C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Runtime\Cache\Admin\6fedbbe541e195344bf1450076482852.php 第 397 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-08-13T09:25:32+08:00 ] 127.0.0.1 /Admin/Base/getNotify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+ERR: Call to undefined function Admin\Controller\curl_init()
+
+[ 2016-08-13T09:25:38+08:00 ] 127.0.0.1 /Admin/Addon/addon?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-08-13T09:27:30+08:00 ] 127.0.0.1 /Admin/Init/install/addon/Apply?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: --
+-- 表的结构 `multi_addon_apply_config`
+--
+
+CREATE TABLE IF NOT EXISTS `multi_addon_apply_config` (
+`id` int(10) unsigned NOT NULL,
+  `name` text NOT NULL,
+  `event` text NOT NULL,
+  `time_range` text NOT NULL,
+  `introduce` text NOT NULL,
+  `visiter` int(11) NOT NULL,
+  `apply` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 [ RunTime:0.0017s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+
+[ 2016-08-13T09:27:30+08:00 ] 127.0.0.1 /Admin/Init/install/addon/Apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: --
+-- 表的结构 `multi_addon_apply_config`
+--
+
+CREATE TABLE IF NOT EXISTS `multi_addon_apply_config` (
+`id` int(10) unsigned NOT NULL,
+  `name` text NOT NULL,
+  `event` text NOT NULL,
+  `time_range` text NOT NULL,
+  `introduce` text NOT NULL,
+  `visiter` int(11) NOT NULL,
+  `apply` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 [ RunTime:0.0025s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+
+[ 2016-08-13T09:27:48+08:00 ] 127.0.0.1 /Admin/Init/uninstall/addon/Wheel?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: /* 
+* @Author: anchen
+* @Date:   2016-02-18 15:14:00
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-03-14 15:39:34
+*/
+DROP TABLE IF EXISTS `waimai_addon_wheel_record` [ RunTime:0.0005s ]
+SQL: DROP TABLE IF EXISTS `waimai_addon_wheel_config`; [ RunTime:0.0011s ]
+
+[ 2016-08-13T09:27:48+08:00 ] 127.0.0.1 /Admin/Addon/addon?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002670s ]
+
+[ 2016-08-13T09:27:52+08:00 ] 127.0.0.1 /Admin/Addon/addon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2016-08-13T09:28:31+08:00 ] 127.0.0.1 /Admin/Config/index/addon/Card?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `multi_addon_card_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_addon_card_config` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-08-13T09:29:46+08:00 ] 127.0.0.1 /Admin/Addon/addon?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-08-13T09:29:48+08:00 ] 127.0.0.1 /Admin/Config/index/addon/Apply?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-08-13T09:29:59+08:00 ] 127.0.0.1 /Admin/Admin/index/addon/Apply?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `multi_addon_apply_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_addon_apply_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `multi_addon_apply_record` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_addon_apply_record` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_addon_apply_record` ORDER BY id desc LIMIT 0,12   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common_umeditor.html): failed to open stream: No such file or directory C:\Users\D.Y\Documents\WebServer\Website\multi_putong\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Array to string conversion C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Runtime\Cache\Admin\445fae7020d1d37d367a23f116bc3bf2.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-08-13T09:31:41+08:00 ] 127.0.0.1 /Admin/Addon/addon?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-08-13T09:32:02+08:00 ] 127.0.0.1 /Admin/Config/index/addon/Apply?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-08-13T09:32:05+08:00 ] 127.0.0.1 /Admin/Admin/index/addon/Apply?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `multi_addon_apply_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_addon_apply_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `multi_addon_apply_record` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_addon_apply_record` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_addon_apply_record` ORDER BY id desc LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common_umeditor.html): failed to open stream: No such file or directory C:\Users\D.Y\Documents\WebServer\Website\multi_putong\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Array to string conversion C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Runtime\Cache\Admin\445fae7020d1d37d367a23f116bc3bf2.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-08-13T09:40:15+08:00 ] 127.0.0.1 /Admin/Addon/addon?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2016-08-13T09:40:18+08:00 ] 127.0.0.1 /Admin/Init/install/addon/Apply?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: --
+-- 表的结构 `multi_addon_apply_config`
+--
+
+CREATE TABLE IF NOT EXISTS `multi_addon_apply_config` (
+`id` int(10) unsigned NOT NULL,
+  `name` text NOT NULL,
+  `event` text NOT NULL,
+  `time_range` text NOT NULL,
+  `introduce` text NOT NULL,
+  `visiter` int(11) NOT NULL,
+  `apply` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 [ RunTime:0.0005s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+
+[ 2016-08-13T09:40:18+08:00 ] 127.0.0.1 /Admin/Init/install/addon/Apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] Declaration of Common\Controller\Addon::display($template = '', $toggle = false) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+NOTIC: [2] Declaration of Common\Controller\Addon::fetch($templateFile = Common\Controller\CONTROLLER_NAME, $action = Common\Controller\ACTION_NAME) should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Controller\Addon.class.php 第 141 行.
+SQL: --
+-- 表的结构 `multi_addon_apply_config`
+--
+
+CREATE TABLE IF NOT EXISTS `multi_addon_apply_config` (
+`id` int(10) unsigned NOT NULL,
+  `name` text NOT NULL,
+  `event` text NOT NULL,
+  `time_range` text NOT NULL,
+  `introduce` text NOT NULL,
+  `visiter` int(11) NOT NULL,
+  `apply` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 [ RunTime:0.0015s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : --
+-- 转存表中的数据 `multi_addon_apply_config`
+--
+
+INSERT INTO `multi_addon_apply_config` (`id`, `name`, `event`, `time_range`, `introduce`, `visiter`, `apply`, `status`, `time`) VALUES
+(1, '1', '1,5,3', '2', '<font color="#000000" style="font-size: 18px; background-color: yellow;">2</font>', 85, 6, 1, '2015-07-07 02:49:53')
+
+[ 2016-08-13T09:52:39+08:00 ] 127.0.0.1 /Admin/Addon/addonShop?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [2] Declaration of Admin\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+

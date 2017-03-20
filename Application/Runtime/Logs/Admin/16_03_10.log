@@ -1,0 +1,105 @@
+[ 2016-03-10T09:10:10+08:00 ] ::1 /wemall-chajian/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\wemall-chajian\Application\Admin\Controller\BaseController.class.php 第 89 行.
+
+[ 2016-03-10T09:10:10+08:00 ] ::1 /wemall-chajian/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-03-10T09:10:11+08:00 ] ::1 /wemall-chajian/index.php/Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-03-10T09:10:22+08:00 ] ::1 /wemall-chajian/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_admin` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `wemall_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wemall_auth_group_access` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `wemall_auth_group_access` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-10T09:10:22+08:00 ] ::1 /wemall-chajian/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\wemall-chajian\Application\Admin\Controller\BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_order` [ RunTime:0.0207s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in D:\xampp\htdocs\wemall-chajian\Application\Admin\Controller\IndexController.class.php on line 9 and defined D:\xampp\htdocs\wemall-chajian\Application\Common\Model\OrderModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wemall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\UserModel.class.php 第 77 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\UserModel.class.php 第 77 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\xampp\htdocs\wemall-chajian\Application\Common\Model\UserModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wemall_user` [ RunTime:0.0292s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in D:\xampp\htdocs\wemall-chajian\Application\Admin\Controller\IndexController.class.php on line 15 and defined D:\xampp\htdocs\wemall-chajian\Application\Common\Model\UserModel.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_user` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in D:\xampp\htdocs\wemall-chajian\Application\Admin\Controller\IndexController.class.php on line 18 and defined D:\xampp\htdocs\wemall-chajian\Application\Common\Model\OrderModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: ip D:\xampp\htdocs\wemall-chajian\Application\Runtime\Cache\Admin\6fedbbe541e195344bf1450076482852.php 第 393 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-03-10T09:10:24+08:00 ] ::1 /wemall-chajian/index.php/Admin/Base/getNotify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\wemall-chajian\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+

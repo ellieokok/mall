@@ -1,0 +1,88 @@
+<div class="header-bar select-shopbar">
+    <div class="header-title" style="display:inline-block;">{$name}</div>
+    <span style="line-height:45px;position:absolute;">
+        <a href="#/selectShop" id="selectShop">
+            <img class="dianpu-img"  src="{{imageUrl}}/dianpu.png">
+        </a>
+    </span>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper" style="height:180px;">
+        {{each ads as value i}} {{if value.adsname == 1}}
+        <div class="swiper-slide">
+            <img src="{{imageUrl}}/blank.gif" data-echo="{{uploadsUrl+value.savepath+value.savename}}" style="display: inline; width: 100%;">
+        </div>
+        {{/if}} {{/each}}
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<div class="mod-desc">
+    {{each ads as value i}} {{if value.adsname == 2}}
+    <div class="mod-cnt mod-cnt-5">
+        <a href="{{value.url}}">
+            <div class="mod-icon">
+                <img class="lazy" src="{{imageUrl}}/blank.gif" data-echo="{{uploadsUrl+value.savepath+value.savename}}" style="display: inline;">
+            </div>
+            <div class="mod-txt">{{value.name}}</div>
+        </a>
+    </div>
+    {{/if}} {{/each}}
+</div>
+
+<section class="m-component-promotion" id="list-section">
+    <div class="mod-title" style="padding-top: 5px;">热门活动</div>
+    <ul class="list-unstyled" id="list-sale">
+        {{each ads as value i}} {{if value.adsname == 3}}
+        <li>
+            <a onclick="clickItemDetail('{{value.remark}}')"><img class="lazy" src="{{imageUrl}}/blank.gif" data-echo="{{uploadsUrl+value.savepath+value.savename}}" style="display: inline; height: 137px;"></a>
+        </li>
+        {{/if}} {{/each}}
+    </ul>
+</section>
+<div id="product-hot">
+    <div class="mod-title">推荐</div>
+    <ul>
+        {{each product as value i}}
+            {{if value.label == "推荐"}}
+        <li class="item {{if value.recommend == 1}}large{{/if}}" label-cate="{{value.menu_id}}" label-id="{{value.id}}">
+            <a href="#/product/{{value.id}}" title="">
+                <div class="item-image"><img src="{{imageUrl}}/blank.gif"
+                        data-echo="{{uploadsUrl+value.savepath+value.savename}}" class="lazy"
+                        style="width: 100%; margin-top: 0px; display: inline;background: #FFF url({{imageUrl}}/loading.gif) no-repeat center center;background-size: 30px;">
+                    <div class="select-shadow">
+                        <div class="select-inner"><img src="{{imageUrl}}/ico_select.png" alt="selected"><span>已选</span></div>
+                    </div>
+                </div>
+            </a>
+            <div class="single-item-info">
+                <div class="item-title">{{value.name}}</div>
+                <div class="item-price-show">
+                    <div class="item-price"><span class="hotspot">￥{{value.price}}</span></div>
+                </div>
+                {{if value.status == 1}}
+                    <div class="message-icon"style="right:0px;">
+                    {{if value.sku.length}}
+                        <input class="numbers-add" type="button" onclick="clickItemDetail('{{value.id}}')">
+                    {{else}}
+                        <input class="numbers-minus" type="button" onclick="reducehotproductNum(this,'{{value.id}}' , false)" style="display: none;">
+                        <input class="numbers" type="text" value="0" style="display: none;">
+                        <input class="numbers-add" type="button" onclick="doCart(this ,'{{value.id}}','{{value.name}}','{{value.price}}','')">
+                    {{/if}}
+                    </div>
+                {{else if value.status == 0}}
+                <div class="item-amount"><span>已售罄</span></div>
+                {{/if}}
+
+            </div>
+        </li>
+             {{/if}}
+        {{/each}} 
+    </ul>
+
+    <div class="copyright"
+         style="text-align: center;margin: 20px 0px 70px 0px;color: #ccc;font-size: 12px;float: left;width: 100%">&nbsp;</div>
+
+</div>
+
+
+

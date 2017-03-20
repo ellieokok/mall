@@ -1,0 +1,106 @@
+[ 2016-03-31T17:03:53+08:00 ] 192.168.1.106 /wemall-multiUser/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\ads\htdocs\wemall-multiUser\Application\Home\Controller\BaseController.class.php 第 92 行.
+
+[ 2016-03-31T17:03:53+08:00 ] 192.168.1.106 /wemall-multiUser/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-03-31T17:03:54+08:00 ] 192.168.1.106 /wemall-multiUser/Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2016-03-31T17:04:12+08:00 ] 192.168.1.106 /wemall-multiUser/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004969s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wemall_user` WHERE `username` = '清月曦' AND `password` = '6412121cbb2dc2cb9e460cfee7046be2' LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `wemall_contact` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `wemall_contact` WHERE ( 1=1 AND user_id='789' )  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wemall_auth_group_access` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wemall_auth_group_access` WHERE ( 1=1 AND uid='789' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wemall_shop` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wemall_shop` WHERE ( 1=1 AND user_id='789' )  [ RunTime:0.0006s ]
+
+[ 2016-03-31T17:04:12+08:00 ] 192.168.1.106 /wemall-multiUser/Home/Shop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\ads\htdocs\wemall-multiUser\Application\Home\Controller\BaseController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wemall_shop` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `wemall_shop` WHERE `user_id` = 789 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `wemall_file` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wemall_file` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 105 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 105 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `wemall_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='789' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wemall_file` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='789' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_shop` WHERE `user_id` = 789 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wemall_shop` WHERE `user_id` = 789 ORDER BY id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: member F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Home\4e544a21c6d0a5053a03b4194d068d42.php 第 179 行.
+NOTIC: [8] Undefined variable: member F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Home\4e544a21c6d0a5053a03b4194d068d42.php 第 182 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Home\4e544a21c6d0a5053a03b4194d068d42.php 第 354 行.
+NOTIC: [8] Array to string conversion F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Home\4e544a21c6d0a5053a03b4194d068d42.php 第 354 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Home\4e544a21c6d0a5053a03b4194d068d42.php 第 354 行.
+NOTIC: [8] Array to string conversion F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Home\4e544a21c6d0a5053a03b4194d068d42.php 第 354 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+

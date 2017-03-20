@@ -1,0 +1,14 @@
+<div id="popup" class="popup">
+    <div class="popup-header">{{header}}</div>
+    <div class="popup-tips">
+        {{if tips}}
+            {{tips}}
+        {{else}}
+        <input style="width: 86%;margin: 0px 10px 10px 10px;height: 20%;" type="number" id="popup-number">
+        {{/if}}
+    </div>
+    <div class="btn-group">
+        <button class="btn" id="yes" onclick="confirmPopup()">确定</button>
+        <button class="btn" id="cancel" onclick="closePopup()">取消</button>
+    </div>
+</div>

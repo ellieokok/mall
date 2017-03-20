@@ -1,0 +1,31 @@
+<section class="content-header">
+    <h1>
+        产品购买
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="page-content-area">
+        <div class="row" style="background-color: #ffffff;margin-left: 0px;padding: 20px 0px;margin-right: 0px;">
+            <div class="col-xs-12">
+
+                <p style="font-size: 14px;">您当前的会员版本是：<span class="badge badge-success">
+                        {$memberPay.level}
+                </span>
+                <a href="{:U('Home/Buy/pay',array('type'=>1))}" class="label label-sm label-danger">
+                    升级会员
+                </a>
+                </p>
+                <p style="font-size: 14px;">开始时间：<span class="badge badge-success">
+                        {:date('Y-m-d H:i:s',$memberPay['start_time'])}
+                </span></p>
+                <p style="font-size: 14px;">结束时间：<span class="badge badge-success">
+                        {:date('Y-m-d H:i:s',$memberPay['end_time'])}
+                </span></p>
+                
+            </div>
+        </div>
+    </div>
+</section>

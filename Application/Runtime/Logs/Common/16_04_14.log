@@ -1,0 +1,6 @@
+[ 2016-04-14T10:01:24+08:00 ] 120.42.114.230 /multi/ADMIN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:ADMIN
+

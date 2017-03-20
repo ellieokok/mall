@@ -1,0 +1,825 @@
+[ 2016-05-13T09:23:31+08:00 ] 218.28.167.183 /multi/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003797s ]
+
+[ 2016-05-13T09:23:32+08:00 ] 218.28.167.183 /multi/Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-05-13T09:23:45+08:00 ] 218.28.167.183 /multi/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `multi_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0093s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-05-13T09:23:45+08:00 ] 218.28.167.183 /multi/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 9 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0025s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 15 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0035s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 18 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: ip /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/6fedbbe541e195344bf1450076482852.php 第 397 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-05-13T09:23:57+08:00 ] 218.28.167.183 /multi/Admin/Base/getNotify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-05-13T09:24:03+08:00 ] 218.28.167.183 /multi/Admin/Config/configSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-05-13T09:24:14+08:00 ] 218.28.167.183 /multi/Admin/Config/configSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006082s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008036s ]
+
+[ 2016-05-13T09:24:18+08:00 ] 218.28.167.183 /multi/Admin/Config/configSet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008666s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-05-13T09:24:20+08:00 ] 218.28.167.183 /multi/Admin/Config/configSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-05-13T09:24:23+08:00 ] 218.28.167.183 /multi/Admin/Config/tplSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.2083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008204s ]
+
+[ 2016-05-13T09:24:43+08:00 ] 218.28.167.183 /multi/Admin/Weixin/wxSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017266s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.026799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-05-13T09:24:49+08:00 ] 218.28.167.183 /multi/Admin/Shop/shop?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `multi_shop` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0039s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='789' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='47' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='1000' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='789' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='997' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='982' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='981' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='979' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='979' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='974' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='976' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='972' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0074s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='968' ) LIMIT 1   [ RunTime:0.0065s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='967' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='940' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='963' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='956' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='953' ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='30' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='952' ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='950' ) LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0073s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='949' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='949' ) LIMIT 1   [ RunTime:0.0104s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='948' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='39' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='945' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='943' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='940' ) LIMIT 1   [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+NOTIC: [8] Array to string conversion /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/b057583dc0ae2405636b13c2f866cf9f.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004064s ]
+
+[ 2016-05-13T09:25:04+08:00 ] 218.28.167.183 /multi/Admin/Addon/addon?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-05-13T09:25:29+08:00 ] 218.28.167.183 /multi/Admin/Addon/addonShop?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-05-13T16:00:46+08:00 ] 113.68.117.178 /multi/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-05-13T16:00:47+08:00 ] 113.68.117.178 /multi/Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005626s ]
+
+[ 2016-05-13T16:01:03+08:00 ] 113.68.117.178 /multi/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_admin` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2016-05-13T16:01:06+08:00 ] 113.68.117.178 /multi/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005570s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0105s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 9 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0096s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.2189s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 15 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0104s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 18 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005816s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005917s ]
+NOTIC: [8] Undefined variable: ip /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/6fedbbe541e195344bf1450076482852.php 第 397 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019386s ]
+
+[ 2016-05-13T16:01:08+08:00 ] 113.68.117.178 /multi/Admin/Base/getNotify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018348s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-05-13T16:01:12+08:00 ] 113.68.117.178 /multi/Admin/Index/userChart?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0044s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 26 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 27 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` WHERE `buy_num` > 0 LIMIT 1   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `multi_analysis` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2016-05-12%' LIMIT 1   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2016-05-13%' LIMIT 1   [ RunTime:0.0071s ]
+SQL: SELECT * FROM `multi_analysis` WHERE ( `time` LIKE '2016-05-13%' OR `time` LIKE '2016-05-12%' OR `time` LIKE '2016-05-11%' OR `time` LIKE '2016-05-10%' OR `time` LIKE '2016-05-09%' OR `time` LIKE '2016-05-08%' OR `time` LIKE '2016-05-07%' OR `time` LIKE '2016-05-06%' OR `time` LIKE '2016-05-05%' OR `time` LIKE '2016-05-04%' OR `time` LIKE '2016-05-03%' OR `time` LIKE '2016-05-02%' OR `time` LIKE '2016-05-01%' OR `time` LIKE '2016-04-30%' OR `time` LIKE '2016-04-29%' OR `time` LIKE '2016-04-28%' OR `time` LIKE '2016-04-27%' OR `time` LIKE '2016-04-26%' OR `time` LIKE '2016-04-25%' OR `time` LIKE '2016-04-24%' OR `time` LIKE '2016-04-23%' OR `time` LIKE '2016-04-22%' ) ORDER BY id desc  [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php on line 51 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` WHERE `ctime` LIKE '2016-05-13%' AND `buy_num` > 0 LIMIT 1   [ RunTime:0.0075s ]
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Admin/Controller/IndexController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029251s ]
+
+[ 2016-05-13T16:01:17+08:00 ] 113.68.117.178 /multi/Admin/Index/orderChart?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `multi_analysis` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2016-05-12%' LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2016-05-13%' LIMIT 1   [ RunTime:0.0104s ]
+SQL: SELECT * FROM `multi_analysis` WHERE ( `time` LIKE '2016-05-13%' OR `time` LIKE '2016-05-12%' OR `time` LIKE '2016-05-11%' OR `time` LIKE '2016-05-10%' OR `time` LIKE '2016-05-09%' OR `time` LIKE '2016-05-08%' OR `time` LIKE '2016-05-07%' OR `time` LIKE '2016-05-06%' OR `time` LIKE '2016-05-05%' OR `time` LIKE '2016-05-04%' OR `time` LIKE '2016-05-03%' OR `time` LIKE '2016-05-02%' OR `time` LIKE '2016-05-01%' OR `time` LIKE '2016-04-30%' OR `time` LIKE '2016-04-29%' OR `time` LIKE '2016-04-28%' OR `time` LIKE '2016-04-27%' OR `time` LIKE '2016-04-26%' OR `time` LIKE '2016-04-25%' OR `time` LIKE '2016-04-24%' OR `time` LIKE '2016-04-23%' OR `time` LIKE '2016-04-22%' ) ORDER BY id desc  [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021888s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021992s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007661s ]
+
+[ 2016-05-13T16:01:22+08:00 ] 113.68.117.178 /multi/Admin/Index/productChart?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `multi_product` ORDER BY id desc  [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+NOTIC: [2] Division by zero /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/e8cf97ae066966488ad44fb629b0620d.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-05-13T16:01:25+08:00 ] 113.68.117.178 /multi/Admin/Config/configSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005318s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.229655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.229741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006364s ]
+
+[ 2016-05-13T16:01:59+08:00 ] 113.68.117.178 /multi/Admin/Config/tplSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.2188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017585s ]
+
+[ 2016-05-13T16:02:14+08:00 ] 113.68.117.178 /multi/Admin/Config/wxTplMsgSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxTplmsgModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxTplmsgModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxTplmsgModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `multi_wx_tplmsg` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `multi_wx_tplmsg` ORDER BY id desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-05-13T16:02:17+08:00 ] 113.68.117.178 /multi/Admin/Config/alipaySet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\AlipayModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AlipayModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AlipayModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AlipayModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AlipayModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AlipayModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_alipay` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `multi_alipay` LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-05-13T16:02:21+08:00 ] 113.68.117.178 /multi/Admin/Weixin/wxSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006312s ]
+
+[ 2016-05-13T16:02:34+08:00 ] 113.68.117.178 /multi/Admin/Weixin/wxMenuSet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxMenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxMenuModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxMenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxMenuModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxMenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_wx_menu` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `multi_wx_menu` ORDER BY id desc  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-05-13T16:02:38+08:00 ] 113.68.117.178 /multi/Admin/Weixin/wxReplySet?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxReplyModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxReplyModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxReplyModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxReplyModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxReplyModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxReplyModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_wx_reply` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_wx_reply` ORDER BY id desc  [ RunTime:0.0027s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-05-13T16:02:41+08:00 ] 113.68.117.178 /multi/Admin/Artical/artical?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004185s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_artical` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0048s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='47' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='47' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0151s ]
+NOTIC: [2] Missing argument 3 for Common\Model\ArticalModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/ArticalController.class.php on line 15 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 81 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_artical` LIMIT 1   [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+

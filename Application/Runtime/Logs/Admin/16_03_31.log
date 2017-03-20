@@ -1,0 +1,1614 @@
+[ 2016-03-31T10:06:22+08:00 ] ::1 /wemall-multiUser/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\BaseController.class.php 第 89 行.
+
+[ 2016-03-31T10:06:23+08:00 ] ::1 /wemall-multiUser/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-03-31T10:06:23+08:00 ] ::1 /wemall-multiUser/Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2016-03-31T10:06:35+08:00 ] ::1 /wemall-multiUser/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_admin` [ RunTime:0.0704s ]
+SQL: SELECT * FROM `wemall_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wemall_auth_group_access` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wemall_auth_group_access` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-31T10:06:36+08:00 ] ::1 /wemall-multiUser/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\BaseController.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_order` [ RunTime:0.0385s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php on line 9 and defined F:\ads\htdocs\wemall-multiUser\Application\Common\Model\OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wemall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 105 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 105 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `wemall_user` [ RunTime:0.0444s ]
+NOTIC: [2] Missing argument 3 for Common\Model\UserModel::getMethod(), called in F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php on line 15 and defined F:\ads\htdocs\wemall-multiUser\Application\Common\Model\UserModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_user` LIMIT 1   [ RunTime:0.0669s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php on line 18 and defined F:\ads\htdocs\wemall-multiUser\Application\Common\Model\OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined variable: ip F:\ads\htdocs\wemall-multiUser\Application\Runtime\Cache\Admin\6fedbbe541e195344bf1450076482852.php 第 394 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2016-03-31T10:06:37+08:00 ] ::1 /wemall-multiUser/Admin/Base/getNotify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\BaseController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002871s ]
+
+[ 2016-03-31T10:22:28+08:00 ] ::1 /wemall-multiUser/Admin/Index/shopChart?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004167s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\BaseController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `wemall_analysis` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_analysis` WHERE `time` LIKE '2016-03-30%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wemall_analysis` WHERE `time` LIKE '2016-03-31%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wemall_shop` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_shop` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wemall_analysis` WHERE ( `time` LIKE '2016-03-31%' OR `time` LIKE '2016-03-30%' OR `time` LIKE '2016-03-29%' OR `time` LIKE '2016-03-28%' OR `time` LIKE '2016-03-27%' OR `time` LIKE '2016-03-26%' OR `time` LIKE '2016-03-25%' OR `time` LIKE '2016-03-24%' OR `time` LIKE '2016-03-23%' OR `time` LIKE '2016-03-22%' OR `time` LIKE '2016-03-21%' OR `time` LIKE '2016-03-20%' OR `time` LIKE '2016-03-19%' OR `time` LIKE '2016-03-18%' OR `time` LIKE '2016-03-17%' OR `time` LIKE '2016-03-16%' OR `time` LIKE '2016-03-15%' OR `time` LIKE '2016-03-14%' OR `time` LIKE '2016-03-13%' OR `time` LIKE '2016-03-12%' OR `time` LIKE '2016-03-11%' OR `time` LIKE '2016-03-10%' ) ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: shops F:\ads\htdocs\wemall-multiUser\Application\Admin\Controller\IndexController.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005261s ]
+
+[ 2016-03-31T10:22:50+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T12:02:18+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004040s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T12:02:21+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T12:02:32+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T12:02:33+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T12:02:45+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:34:36+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:34:51+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:43:47+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:47:58+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:48:11+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:48:16+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:56:55+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:56:59+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:04+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:07+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:09+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:11+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:14+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:16+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:18+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:36+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:57:39+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:58:09+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:58:13+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:58:16+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:59:43+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:59:51+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T14:59:57+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:03:11+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:03:14+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:03:17+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:03:21+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:05:42+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:05:45+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:05:49+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:06:16+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:06:20+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:06:27+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:06:35+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:12:32+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:15:32+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:15:49+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:17:25+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:18:28+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:18:43+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:19:25+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:21:24+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:21:37+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:21:45+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:21:58+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:22:36+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:23:19+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:24:50+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:24:54+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:25:08+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:25:20+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:25:44+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:26:30+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:26:37+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:26:41+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:26:45+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:26:51+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:27:29+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:27:43+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:27:47+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:28:23+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:30:21+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:33:03+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:36:54+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:37:01+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011959s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:37:06+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:37:18+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:37:28+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:37:33+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:39:22+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:47:53+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003263s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T15:48:02+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:09:46+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:10:02+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:10:22+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:10:53+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:12:39+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:25:16+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:38:51+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:53:19+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T16:55:21+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:04:28+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:04:59+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:05:45+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:09:43+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:12:32+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:12:58+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:13:19+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:14:32+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:14:43+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:15:02+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:15:15+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:15:38+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:15:46+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:16:02+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:16:12+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:17:08+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:17:13+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:17:18+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:17:22+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:18:03+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:18:10+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:20:05+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:21:47+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:30:31+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:31:03+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:31:10+08:00 ] 192.168.1.100 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:35:45+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:54:07+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T17:57:14+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:30:41+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:33:27+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:38:36+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:38:39+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:38:42+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:38:45+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:38:47+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:39:15+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:40:46+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:40:48+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:40:51+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:40:58+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:41:32+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:42:13+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:42:15+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:42:17+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:42:18+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:46:34+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:47:12+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:48:51+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:55:07+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:55:16+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002811s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:56:24+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:56:28+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:57:04+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:57:07+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:58:01+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:58:24+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:58:46+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T18:59:48+08:00 ] ::1 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:07:09+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:07:58+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:08:01+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:09:21+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:09:25+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:09:45+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:10:18+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:10:27+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:10:42+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:10:51+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:11:03+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:11:16+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:11:28+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:11:47+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:12:28+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:12:47+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+ERR: 非法操作:Uploads
+
+[ 2016-03-31T19:13:53+08:00 ] 192.168.1.106 /wemall-multiUser/Public/Uploads/nullnull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+ERR: 非法操作:Uploads
+

@@ -1,0 +1,96 @@
+<section class="content-header">
+    <h1>
+        微信设置
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">微信自定义回复</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a href="{:U('Admin/Weixin/addWxReply')}" class="btn btn-danger ">
+                                新增自定义回复
+                            </a>
+                        </div>
+                        <!-- /.btn-group -->
+                    </div>
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th class="hidden-xs">
+                                    <label><input onchange="checkAll()" type="checkbox" value=""></label>
+                                </th>
+                                <th>ID</th>
+                                <th>类型</th>
+                                <th>标题</th>
+                                <th>描述</th>
+                                <th>图片</th>
+                                <th>URL</th>
+                                <th>关键词</th>
+                                <th>备注</th>
+                                <th>操作</th>
+                            </tr>
+
+                            <volist name="wxReply" id="wxReply">
+                                <tr>
+                                    <td class="hidden-xs">
+                                        <label><input name="checkbox" class="check" type="checkbox"
+                                                      value="{$wxReply.id}"></label>
+                                    </td>
+                                    <td>{$wxReply.id}</td>
+                                    <td>{$wxReply.type}</td>
+                                    <td>{$wxReply.title|msubstr=0,12}</td>
+                                    <td>{$wxReply.description|msubstr=0,12}</td>
+                                    <td>
+                                        <div class="btn-group" style="margin: 0px;">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                图片<span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <img style="height: 200px"
+                                                         src="__PUBLIC__/Uploads/{$wxReply.savepath}{$wxReply.savename}">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>{$wxReply.url}</td>
+                                    <td>{$wxReply.key}</td>
+                                    <td>{$wxReply.remark}</td>
+                                    <td class="table-action"><a
+                                            href="{:U('Admin/Weixin/modWxReply',array('id'=>$wxReply['id']))}">修改</a><a
+                                            href="{:U('Admin/Weixin/delWxReply',array('id'=>$wxReply['id']))}">删除</a>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-danger"
+                                            onclick="batchUrl('{:U(\'Admin/Weixin/delWxReply\')}')">全部删除
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

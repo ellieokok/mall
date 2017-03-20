@@ -1,0 +1,94 @@
+<section class="content-header">
+    <h1>
+        财务管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">用户充值管理</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th class="hidden-xs">
+                                    <label><input onchange="checkAll()" type="checkbox" value=""></label>
+                                </th>
+                                <th>用户ID</th>
+                                <th>交易号</th>
+                                <th>交易方式</th>
+                                <th>充值金额</th>
+                                <th>赠送金额</th>
+                                <th>状态</th>
+                                <th>时间</th>
+                            </tr>
+                            <volist name="tradeList" id="trade">
+                                <tr>
+                                    <td class="hidden-xs">
+                                        <label><input name="checkbox" class="check" type="checkbox"
+                                                      value="{$trade.id}"></label>
+                                    </td>
+                                    <td>
+                                        {$trade.user_id}
+                                    </td>
+                                    <td>
+                                        {$trade.payid}
+                                    </td>
+                                    <td>
+                                        <if condition="$trade.payment eq 0">账户支付
+                                            <elseif condition="$trade.payment eq 1"/>
+                                            微信支付
+                                            <elseif condition="$trade.payment eq 2"/>
+                                            支付宝支付
+                                            <else/>
+                                            货到付款
+                                        </if>
+                                    </td>
+                                    <td>
+                                        <span style="background-color: #dd4b39;" class="badge">{$trade.money}元</span>
+                                    </td>
+                                    <td>
+                                        <span style="background-color: #dd4b39;" class="badge">{$trade.donate}元</span>
+                                    </td>
+                                    <td>
+                                        <if condition="$trade.status eq 0"><span style="color: red">失败</span></if>
+                                        <if condition="$trade.status eq 1"><span style="color: blue">成功</span></if>
+                                    </td>
+                                    <td>
+                                        {$trade.time}
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group" style="height: 34px">
+
+                                </div>
+                                <!-- /.btn-group -->
+                                <div class="pull-right">
+                                    {$page}
+                                    <!-- /.btn-group -->
+                                </div>
+                                <!-- /.pull-right -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

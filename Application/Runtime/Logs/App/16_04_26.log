@@ -1,0 +1,1324 @@
+[ 2016-04-26T08:54:47+08:00 ] 113.140.81.162 /multi/App/Index/index/shopId/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000488s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2016-04-26T08:55:08+08:00 ] 113.140.81.162 /multi/App/Index/index/shopId/138?code=003FapBe0ThnbG1sEUye0FEuBe0FapBm&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `multi_user` WHERE `openid` = 'oojFxs-7ph7s3oQN7I_Uyr0EH1y4' LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: id /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 105 行.
+SQL: INSERT INTO `multi_user` (`username`,`subscribe`,`sex`,`language`,`city`,`province`,`avater`,`status`,`openid`) VALUES ('Jorycn','1','1','zh_CN','','','http://wx.qlogo.cn/mmopen/KMt8YcxoTr7rd0ib9vPKRHOSdgHXk5jYkIZllEXGg3xsynegcBFs3sJ24sjO9FIQTiciaKoIuGUZrfH1zzVhE0uNseMgM17nv50/0','1','oojFxs-7ph7s3oQN7I_Uyr0EH1y4') [ RunTime:0.0954s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 996 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='996' )  [ RunTime:0.0059s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='996' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='996' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0053s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_menu` WHERE `shop_id` = 0 ORDER BY rank desc,id desc  [ RunTime:0.0029s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.2058s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_product` WHERE `status` <> -1 AND `shop_id` = 0 ORDER BY rank desc  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [2048] Declaration of Common\Model\CommentModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `multi_comment` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='3' )  [ RunTime:0.0029s ]
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_product_sku` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='3' )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='5' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='5' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='6' )  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='6' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='7' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='7' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='8' )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='8' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='9' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='9' )  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='10' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='10' )  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='11' )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='11' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='12' )  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='12' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.2049s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='13' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='13' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='14' )  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='14' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='15' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='15' )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='16' )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='16' )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='17' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='17' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.2042s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='18' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='18' )  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='19' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='19' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\AdsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `multi_ads` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_ads` WHERE `shop_id` = 0 ORDER BY id desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-04-26T08:55:14+08:00 ] 113.140.81.162 /multi/App/Shop/getProduct?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0037s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_product` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0098s ]
+NOTIC: [2048] Declaration of Common\Model\CommentModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `multi_comment` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0050s ]
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_product_sku` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `multi_file` WHERE `id` IN ('') ORDER BY id desc  [ RunTime:0.0099s ]
+
+[ 2016-04-26T08:55:22+08:00 ] 113.140.81.162 /multi/App/User/getContactList?getProvince=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0028s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `multi_contact` WHERE `user_id` = 996 ORDER BY id desc  [ RunTime:0.0022s ]
+NOTIC: [2048] Declaration of Common\Model\LocProvinceModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/LocProvinceModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\LocProvinceModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/LocProvinceModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\LocProvinceModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/LocProvinceModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `multi_loc_province` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_loc_province` ORDER BY id desc  [ RunTime:0.0037s ]
+NOTIC: [2048] Declaration of Common\Model\LocCityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/LocCityModel.class.php 第 112 行.
+NOTIC: [2048] Declaration of Common\Model\LocCityModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/LocCityModel.class.php 第 112 行.
+NOTIC: [2048] Declaration of Common\Model\LocCityModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/LocCityModel.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `multi_loc_city` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='8' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='7' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='6' )  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='5' )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='4' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='3' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='2' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_loc_city` WHERE ( 1=1 AND province_id='1' )  [ RunTime:0.0112s ]
+
+[ 2016-04-26T08:55:51+08:00 ] 113.140.81.162 /multi/App/Order/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `multi_product` WHERE `id` = 4 LIMIT 1   [ RunTime:0.2169s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0029s ]
+SQL: INSERT INTO `multi_contact` (`id`,`name`,`phone`,`province`,`city`,`address`,`user_id`) VALUES ('0','Jdndn','Jdndj','山东','青岛','Dnnsnd','996') [ RunTime:0.0878s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined index: id /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 82 行.
+SQL: INSERT INTO `multi_order` (`shop_id`,`remark`,`delivery_time`,`totalprice`,`payment`,`discount`,`user_id`,`orderid`,`pay_status`,`status`,`time`) VALUES ('','','','NaN','1','0','996','1604260855505','0','0','2016-04-26 08:55:50') [ RunTime:0.0461s ]
+SQL: SELECT * FROM `multi_product` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `multi_order_detail` [ RunTime:0.0089s ]
+SQL: INSERT INTO `multi_order_detail` (`order_id`,`product_id`,`user_id`,`name`,`sku_id`,`sku_name`,`num`,`price`,`file_id`) VALUES ('15','4','996','香梨','0','','1','12','17') [ RunTime:0.0307s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0110s ]
+SQL: UPDATE `multi_user` SET `buy_num`=buy_num+1 WHERE `id` = 996 [ RunTime:0.0324s ]
+SQL: UPDATE `multi_user` SET `score`=score+12 WHERE `id` = 996 [ RunTime:0.0519s ]
+NOTIC: [2] Illegal offset type in isset or empty /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/View.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `multi_analysis` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2016-04-26%' LIMIT 1   [ RunTime:0.0101s ]
+SQL: INSERT INTO `multi_analysis` (`orders`,`trades`,`registers`,`users`) VALUES ('1','0','0','0') [ RunTime:0.0361s ]
+SQL: SELECT * FROM `multi_contact` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_order_contact` [ RunTime:0.0206s ]
+NOTIC: [8] Undefined index: id /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 46 行.
+SQL: INSERT INTO `multi_order_contact` (`user_id`,`name`,`phone`,`province`,`city`,`district`,`address`,`postcode`,`remark`,`time`,`order_id`) VALUES ('996','Jdndn','Jdndj','山东','青岛',NULL,'Dnnsnd',NULL,NULL,'2016-04-26 08:55:50','15') [ RunTime:0.0382s ]
+SQL: SELECT * FROM `multi_order` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='15' ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='996' ) LIMIT 1   [ RunTime:0.0057s ]
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `multi_order_detail` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='15' )  [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: query /www/users/HA84691/WEB/multi/Application/Common/Common/function.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0064s ]
+
+[ 2016-04-26T08:55:52+08:00 ] 113.140.81.162 /multi/App/Pay/wxPay/id/15/shop_id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005069s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0084s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_order` WHERE `id` = 15 LIMIT 1   [ RunTime:0.2128s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2016-04-26T08:55:54+08:00 ] 113.140.81.162 /multi/App/Pay/wxPay/id/15/shop_id/0?code=041y9nEA1GzOf20pZVFA1oHiEA1y9nE4&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_order` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0055s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' /www/users/HA84691/WEB/multi/ThinkPHP/Library/Vendor/WxPayPubHelper/WxPayPubHelper.php 第 848 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be long, string given /www/users/HA84691/WEB/multi/ThinkPHP/Library/Vendor/WxPayPubHelper/WxPayPubHelper.php 第 848 行.
+NOTIC: [8] Undefined index: appsecrect /www/users/HA84691/WEB/multi/Application/App/Controller/PayController.class.php 第 58 行.
+
+[ 2016-04-26T08:55:57+08:00 ] 113.140.81.162 /multi/App/Index/index/shopId/138?code=003FapBe0ThnbG1sEUye0FEuBe0FapBm&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 996 LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='996' )  [ RunTime:0.0107s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='996' ) LIMIT 1   [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='996' )  [ RunTime:0.0096s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.2119s ]
+SQL: SELECT * FROM `multi_shop` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `multi_menu` WHERE `shop_id` = 0 ORDER BY rank desc,id desc  [ RunTime:0.0039s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0111s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_product` WHERE `status` <> -1 AND `shop_id` = 0 ORDER BY rank desc  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0051s ]
+NOTIC: [2048] Declaration of Common\Model\CommentModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `multi_comment` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='3' )  [ RunTime:0.0019s ]
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_product_sku` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='3' )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0064s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='5' )  [ RunTime:0.0123s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='5' )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='6' )  [ RunTime:0.0135s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='6' )  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='7' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='7' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0041s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='8' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='8' )  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0113s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='9' )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='9' )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0103s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='10' )  [ RunTime:0.0109s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='10' )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='11' )  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='11' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0113s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0101s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='12' )  [ RunTime:0.0108s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='12' )  [ RunTime:0.0111s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0105s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0153s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='13' )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='13' )  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0145s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='14' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='14' )  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0151s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='15' )  [ RunTime:0.0127s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='15' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0101s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0095s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='16' )  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='16' )  [ RunTime:0.0141s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='17' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='17' )  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='18' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='18' )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='19' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='19' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [2048] Declaration of Common\Model\AdsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `multi_ads` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_ads` WHERE `shop_id` = 0 ORDER BY id desc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008446s ]
+
+[ 2016-04-26T09:07:24+08:00 ] 27.154.237.126 /multi/App/Artical/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_artical` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: UPDATE `multi_artical` SET `visiter`=visiter+1 WHERE `id` = 1 [ RunTime:0.0426s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-04-26T13:33:19+08:00 ] 101.226.61.190 /multi/App/Index/index/shopid/136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.6276s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 154 LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='154' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE `id` = 136 LIMIT 1   [ RunTime:0.0055s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_menu` WHERE `shop_id` = 136 ORDER BY rank desc,id desc  [ RunTime:0.0033s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `multi_product` WHERE `status` <> -1 AND `shop_id` = 136 ORDER BY rank desc  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [2048] Declaration of Common\Model\CommentModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `multi_comment` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='1' )  [ RunTime:0.0028s ]
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_product_sku` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='1' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [2048] Declaration of Common\Model\AdsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `multi_ads` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_ads` WHERE `shop_id` = 136 ORDER BY id desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0101s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0084s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='43' ) LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='30' ) LIMIT 1   [ RunTime:0.0053s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-04-26T13:33:54+08:00 ] 101.226.61.190 /multi/App/User/getUser?getOrder=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 154 LIMIT 1   [ RunTime:0.3277s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.2238s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.2218s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='154' ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0032s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_order` WHERE `user_id` = 154 AND `status` > -1 ORDER BY id desc  [ RunTime:0.0031s ]
+
+[ 2016-04-26T13:33:55+08:00 ] 101.226.61.190 /multi/App/User/getUser?getOrder=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0135s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 154 LIMIT 1   [ RunTime:0.0062s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0041s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='154' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_order` WHERE `user_id` = 154 AND `status` > -1 ORDER BY id desc  [ RunTime:0.0018s ]
+
+[ 2016-04-26T13:34:08+08:00 ] 101.226.61.190 /multi/App/User/getUser?getOrder=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 154 LIMIT 1   [ RunTime:0.0126s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0026s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='154' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='154' )  [ RunTime:0.0038s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_order` WHERE `user_id` = 154 AND `status` > -1 ORDER BY id desc  [ RunTime:0.0020s ]
+
+[ 2016-04-26T13:52:53+08:00 ] 180.157.117.197 /multi/App/Artical/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `multi_artical` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0055s ]
+SQL: UPDATE `multi_artical` SET `visiter`=visiter+1 WHERE `id` = 1 [ RunTime:0.0444s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-04-26T14:31:04+08:00 ] 58.49.151.223 /multi/App/Artical/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_artical` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0036s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: UPDATE `multi_artical` SET `visiter`=visiter+1 WHERE `id` = 1 [ RunTime:0.0446s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-04-26T16:10:52+08:00 ] 123.178.28.62 /multi/App/Index/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-04-26T16:10:57+08:00 ] 123.178.28.62 /multi/App/Index/shop?code=013FUWfx1RRvE50dhmix1Uw1gx1FUWf3&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0064s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `multi_user` WHERE `openid` = 'oojFxs1ksSgGHpkuofiML-bxMfCc' LIMIT 1   [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: id /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 105 行.
+SQL: INSERT INTO `multi_user` (`username`,`subscribe`,`sex`,`language`,`city`,`province`,`avater`,`status`,`openid`) VALUES ('殷豪亮/:hug','1','1','zh_CN','Hohhot','Inner Mongolia','http://wx.qlogo.cn/mmopen/PiajxSqBRaEJTd2qFghf69tHjKSZOhf4tTFBkTiaRuOjgP9Rl5sdUmTDSICe1EvIDfMmD8yzuyvprAYice5u8eHFA/0','1','oojFxs1ksSgGHpkuofiML-bxMfCc') [ RunTime:0.0391s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 998 LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.2120s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='998' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: shopId /www/users/HA84691/WEB/multi/Application/App/Controller/IndexController.class.php 第 72 行.
+SQL: SELECT * FROM `multi_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: ads /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 43 行.
+NOTIC: [8] Undefined variable: menu /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 44 行.
+NOTIC: [8] Undefined variable: product /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-04-26T16:11:00+08:00 ] 123.178.28.62 /multi/App/User/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_shop` WHERE `lng` BETWEEN 111.471883925 AND 111.828316075 AND `lat` BETWEEN 40.688989797691 AND 40.958710202309 AND `name` LIKE '%%' AND `status` = 2 ORDER BY id desc  [ RunTime:0.0021s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='976' ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-04-26T16:11:02+08:00 ] 123.178.28.62 /multi/App/Index/index/shopid/167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0117s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 998 LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0103s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='998' ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_shop` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0105s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `multi_menu` WHERE `shop_id` = 167 ORDER BY rank desc,id desc  [ RunTime:0.0021s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_product` WHERE `status` <> -1 AND `shop_id` = 167 ORDER BY rank desc  [ RunTime:0.0032s ]
+NOTIC: [2048] Declaration of Common\Model\AdsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `multi_ads` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_ads` WHERE `shop_id` = 167 ORDER BY id desc  [ RunTime:0.0025s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-04-26T16:11:10+08:00 ] 123.178.28.62 /multi/App/User/getUser?getOrder=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0036s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 998 LIMIT 1   [ RunTime:0.0143s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0033s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='998' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0031s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `multi_order` WHERE `user_id` = 998 AND `status` > -1 ORDER BY id desc  [ RunTime:0.0035s ]
+
+[ 2016-04-26T16:11:17+08:00 ] 123.178.28.62 /multi/App/User/getUser?getOrder=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0045s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 998 LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0026s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='998' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `multi_order` WHERE `user_id` = 998 AND `status` > -1 ORDER BY id desc  [ RunTime:0.0021s ]
+
+[ 2016-04-26T16:11:18+08:00 ] 123.178.28.62 /multi/App/Index/shop?code=013FUWfx1RRvE50dhmix1Uw1gx1FUWf3&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004476s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 998 LIMIT 1   [ RunTime:0.0026s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0071s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='998' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: shopId /www/users/HA84691/WEB/multi/Application/App/Controller/IndexController.class.php 第 72 行.
+SQL: SELECT * FROM `multi_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0065s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: ads /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 43 行.
+NOTIC: [8] Undefined variable: menu /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 44 行.
+NOTIC: [8] Undefined variable: product /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-04-26T16:11:19+08:00 ] 123.178.28.62 /multi/App/User/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_shop` WHERE `lng` BETWEEN 111.46998827798 AND 111.82641172202 AND `lat` BETWEEN 40.687369797691 AND 40.957090202309 AND `name` LIKE '%%' AND `status` = 2 ORDER BY id desc  [ RunTime:0.0054s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='976' ) LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2016-04-26T16:11:33+08:00 ] 123.178.28.62 /multi/App/Index/index/shopid/167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 998 LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='998' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='998' )  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_menu` WHERE `shop_id` = 167 ORDER BY rank desc,id desc  [ RunTime:0.0019s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_product` WHERE `status` <> -1 AND `shop_id` = 167 ORDER BY rank desc  [ RunTime:0.0026s ]
+NOTIC: [2048] Declaration of Common\Model\AdsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+NOTIC: [2048] Declaration of Common\Model\AdsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/AdsModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `multi_ads` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `multi_ads` WHERE `shop_id` = 167 ORDER BY id desc  [ RunTime:0.0052s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-04-26T23:55:48+08:00 ] 60.166.232.42 /multi/App/Artical/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ArticalModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_artical` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `multi_artical` SET `visiter`=visiter+1 WHERE `id` = 1 [ RunTime:0.2308s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+

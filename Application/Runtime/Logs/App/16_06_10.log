@@ -1,0 +1,58 @@
+[ 2016-06-10T21:19:23+08:00 ] 118.251.191.5 /multi/App/Index/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='2' )  [ RunTime:0.0025s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='2' ) LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='2' )  [ RunTime:0.0195s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0365s ]
+NOTIC: [8] Undefined variable: shopId /www/users/HA84691/WEB/multi/Application/App/Controller/IndexController.class.php 第 72 行.
+SQL: SELECT * FROM `multi_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0249s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/WxConfigModel.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `multi_wx_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_wx_config` LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /www/users/HA84691/WEB/multi/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: ads /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 43 行.
+NOTIC: [8] Undefined variable: menu /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 44 行.
+NOTIC: [8] Undefined variable: product /www/users/HA84691/WEB/multi/Application/Runtime/Cache/App/643fd0c28bdcb8d7b2203c6c89413993.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+

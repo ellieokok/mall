@@ -1,0 +1,194 @@
+<section class="content-header">
+    <h1>
+        报名设置
+        <small></small>
+    </h1>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">报名设置</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <div class="box-body no-padding">                        
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a data-toggle="tab" href="#tab1" class="btn btn-danger "><i class="icon-comments"></i>报名设置</a>
+                        </div>    
+                        <div class="btn-group">
+                            <a data-toggle="tab" href="#tab2" class="btn btn-danger "><i class="icon-user"></i>报名记录</a>
+                        </div>
+                        <div class="tab-content padded" id="my-tab-content">
+                            <div class="tab-pane active" id="tab1">
+<!--                                 <h3>
+                                    报名设置
+                                </h3> -->
+
+                                <p>
+
+                                <form action="{:u_addons('Apply://Admin/Admin/addConfig/addon/Apply')}" id="myForm" method="post"
+                                      onsubmit="return false;" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">报名名称</label>
+
+                                        <div class="col-md-7">
+                                            <input class="form-control" placeholder="" value="{$config.name}"
+                                                   name="name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">项目名称(多项目英文逗号区分)</label>
+
+                                        <div class="col-md-7">
+                                            <textarea class="form-control" name="event"
+                                                      type="text">{$config.event}</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">项目时间</label>
+
+                                        <div class="col-md-7">
+                                            <input class="form-control" placeholder="" value="{$config.time_range}"
+                                                   name="time_range" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">项目介绍</label>
+
+                                        <div class="col-md-7">
+                                            <!--style给定宽度可以影响编辑器的最终宽度-->
+                                            <script type="text/plain" id="UEditor" name="introduce" style="width:100%;height:340px;">
+                                                {$config.introduce}
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">浏览量</label>
+
+                                        <div class="col-md-7">
+                                            <input class="form-control" placeholder="" value="{$config.visiter}"
+                                                   name="visiter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">申请量</label>
+
+                                        <div class="col-md-7">
+                                            <input class="form-control" placeholder="" value="{$config.apply}"
+                                                   name="apply" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">状态</label>
+
+                                        <div class="col-md-7">
+                                            <select class="form-control" name="status">
+                                                <option value="1">开启</option>
+                                                <option value="0">关闭</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="box-footer">
+                                        <!-- <label class="control-label col-md-2"></label> -->
+
+                                        <div class="col-md-2">
+                                            <button class="btn btn-block btn-danger"
+                                                    type="submit">保存
+                                            </button>
+                                        </div>
+                                        <div class="col-md-2">    
+                                            <button class="btn btn-block btn-default">取消</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="tab2">
+<!--                                 <h3>
+                                    报名记录
+                                </h3> -->
+
+                                <p>
+
+                                <div class="widget-content padded clearfix">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <th class="check-header hidden-xs">
+                                                <label><input id="checkAll" name="checkAll"
+                                                              type="checkbox"><span></span></label>
+                                            </th>
+                                            <th>
+                                                ID
+                                            </th>
+                                            <th>
+                                                联系人
+                                            </th>
+                                            <th class="hidden-xs">
+                                                联系电话
+                                            </th>
+                                            <th class="hidden-xs">
+                                                项目
+                                            </th>
+                                            <th class="hidden-xs">
+                                                时间
+                                            </th>
+                                        </tbody>
+                                        <tbody>
+                                        <volist name="record" id="record">
+                                            <tr>
+                                                <td class="check hidden-xs">
+                                                    <label><input name="optionsRadios1" type="checkbox"
+                                                                  value="option1"><span></span></label>
+                                                </td>
+                                                <td>
+                                                    {$record.id}
+                                                </td>
+                                                <td>
+                                                    {$record.name}
+                                                </td>
+                                                <td class="hidden-xs">
+                                                    {$record.phone}
+                                                </td>
+                                                <td class="hidden-xs">
+                                                    {$record.event}
+                                                </td>
+                                                <td class="hidden-xs">
+                                                    {$record.time}
+                                                </td>
+                                            </tr>
+                                        </volist>
+                                        </tbody>
+                                    </table>
+                                    <div class="pull-right">
+                                        
+                                         {$page}
+                                    </div>
+                                   
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<include file="Common:umeditor"/>
+
+<script type="text/javascript">
+    $(function () {
+        //实例化编辑器异步载入
+        var editor = new UE.ui.Editor();
+        editor.render("UEditor");
+
+        if ('{$config}') {
+            $('select[name="status"]').val('{$config.status}');
+        }
+    });
+</script>

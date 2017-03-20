@@ -1,0 +1,244 @@
+<section class="content-header">
+    <h1>
+        产品购买
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="callout callout-danger">
+        <p>不同等级的会员对应的权限不一样，升级会员前请仔细阅读下面的教程，查看不同版本会员的权限。</p>
+        <img src="__PUBLIC__/Admin/dist/img/type_info.png">
+    </div>
+    <div class="page-content-area">
+
+        <style>
+            .chongzhi_pay_text {
+                font-size: 16px;
+                font-family: Helvetica, STHeiti, 'Microsoft YaHei', Verdana, Arial, Tahoma, sans-serif;
+                margin: 20px 0 20px 0;
+            }
+
+            #chongzhi_pay {
+                color: red;
+            }
+
+            .chajia_pay_text {
+                font-size: 16px;
+                font-family: Helvetica, STHeiti, 'Microsoft YaHei', Verdana, Arial, Tahoma, sans-serif;
+                margin: 20px 0 20px 0;
+            }
+
+            #chajia_pay {
+                color: red;
+            }
+
+            .should_pay_text {
+                font-size: 16px;
+                font-family: Helvetica, STHeiti, 'Microsoft YaHei', Verdana, Arial, Tahoma, sans-serif;
+                margin: 20px 0 20px 0;
+            }
+
+            #should_pay {
+                color: red;
+            }
+
+            .choose-paytype-text {
+                font-size: 16px;
+                font-family: Helvetica, STHeiti, 'Microsoft YaHei', Verdana, Arial, Tahoma, sans-serif;
+                margin: 20px 0 10px 0;
+            }
+        </style>
+
+
+        <script>
+            function money() {
+                var curversion = parseInt(0);
+                var datediff = parseInt(0);
+
+                var version = document.getElementById("pay_version").value;
+                var time = document.getElementById("pay_num").value;
+                if (version == 1) {
+                    if (time == 1) {
+                        var chongzhi_money = 0.01;
+                    }
+                    else if (time == 2) {
+                        var chongzhi_money = 280;
+                    }
+                    else {
+                        var chongzhi_money = 1000;
+                    }
+                    $("#chongzhi_pay").html(chongzhi_money);
+
+                    var chajia_money = 0;
+                    $("#chajia_pay").html(chajia_money);
+
+                    var should_money = chongzhi_money + chajia_money;
+                    $("#should_pay").html(should_money);
+                }
+                else if (version == 2) {
+                    if (time == 1) {
+                        var chongzhi_money = 0.01;
+                    }
+                    else if (time == 2) {
+                        var chongzhi_money = 480;
+                    }
+                    else {
+                        var chongzhi_money = 1600;
+                    }
+                    $("#chongzhi_pay").html(chongzhi_money);
+
+                    var chajia_money = 0;
+                    if (curversion == 1) {
+                        chajia_money = parseInt(datediff * 1000 / 365);
+                    }
+                    $("#chajia_pay").html(chajia_money);
+
+                    var should_money = chongzhi_money + chajia_money;
+                    $("#should_pay").html(should_money);
+                }
+                else if (version == 3) {
+                    if (time == 1) {
+                        var chongzhi_money = 300;
+                    }
+                    else if (time == 2) {
+                        var chongzhi_money = 880;
+                    }
+                    else {
+                        var chongzhi_money = 3000;
+                    }
+                    $("#chongzhi_pay").html(chongzhi_money);
+
+                    var chajia_money = 0;
+                    if (curversion == 1) {
+                        chajia_money = parseInt(datediff * 2000 / 365);
+                    }
+                    else if (curversion == 2) {
+                        chajia_money = parseInt(datediff * 1000 / 365);
+                    }
+                    $("#chajia_pay").html(chajia_money);
+
+                    var should_money = chongzhi_money + chajia_money;
+                    $("#should_pay").html(should_money);
+                }
+                else if (version == 0) {
+                    if (time == 1) {
+                        var chongzhi_money = 0;
+                    }
+                    else if (time == 2) {
+                        var chongzhi_money = 0;
+                    }
+                    else {
+                        var chongzhi_money = 0;
+                    }
+                    $("#chongzhi_pay").html(chongzhi_money);
+
+                    var chajia_money = 0;
+                    if (curversion == 1) {
+                        chajia_money = parseInt(datediff * 2000 / 365);
+                    }
+                    else if (curversion == 2) {
+                        chajia_money = parseInt(datediff * 1000 / 365);
+                    }
+                    $("#chajia_pay").html(chajia_money);
+
+                    var should_money = chongzhi_money + chajia_money;
+                    $("#should_pay").html(should_money);
+                }
+            }
+
+            function submitorder() {
+                var pay_version = $("#pay_version").val();
+                var pay_num = $("#pay_num").val();
+                var charge_type = $("input:checked").val();
+
+                var postdata = JSON.parse("{}");
+                postdata.pay_version = pay_version;
+                postdata.pay_num = pay_num;
+                postdata.charge_type = charge_type;
+                postdata.money = $('#chongzhi_pay').html();
+
+                $.ajax({
+                    type: "POST",
+                    url: "{:U('Home/Buy/pay')}",
+                    data: postdata,
+                    dataType: "json",
+                    success: function (data) {
+                        toastr.success("已选择免费版,请填写申请表");
+
+                        var json = eval(data);
+                        $.pjax({
+                            url: json.url,
+                            container: '#pjax-container'
+                        })
+                    },
+                    error: function (data) {
+                        alert("网络错误，发布订单失败！");
+                    }
+                });
+            }
+
+            $(function () {
+                $(".btn-submitorder").on("click", function () {
+                    submitorder();
+                });
+            });
+        </script>
+
+        <div class="row" style="background-color: #ffffff;margin-left: 0px;padding: 20px 0px;margin-right: 0px;">
+            <div class="col-xs-12">
+
+                <p style="font-size: 14px;">您当前的会员版本是：<span class="badge badge-success">
+                    <notempty name="member">
+                        {$member.level}
+                        <else/>
+                        免费版
+                    </notempty>
+                </span></p>
+                <br>
+
+                <label>充值会员版本</label>
+                <select onchange="money()" id="pay_version">
+                    <option value="0">免费版</option>
+                    <option value="1">白金版</option>
+                    <option value="2">钻石版</option>
+                </select>
+
+                <br>
+
+                <div style="height: 20px;"></div>
+
+                <label>充值时间</label>
+                <select onchange="money()" id="pay_num">
+                    <option value="1">1个月</option>
+                    <option value="2">3个月</option>
+                    <option value="3">1年</option>
+                </select>
+
+                <p class="chongzhi_pay_text">充值金额：<span id="chongzhi_pay">0</span>元</p>
+                <p class="chajia_pay_text" style="display: none">会员等级差价：<span id="chajia_pay">0</span>元</p>
+                <p class="should_pay_text" style="display: none">应付总金额：<span id="should_pay">0</span>元</p>
+
+                <p class="choose-paytype-text">请选择支付方式</p>
+
+                <input type="radio" name="chargetype" value="2" checked="checked">
+                <img src="__PUBLIC__/Admin/dist/img/alipay.gif">
+
+                <!--<input type="radio" name="chargetype" value="0">-->
+                <!--<img src="__PUBLIC__/Admin/dist/img/weixinzhifu.jpg">-->
+
+                <div class="clearfix form-actions">
+
+                    <div class="col-sm-2" style="    padding-left: 0px;
+    margin-top: 20px;width: 14%;">
+                        <button type="submit" class="btn btn-block btn-danger btn-submitorder">
+                            <i class="ace-icon fa fa-check bigger-110"></i>
+                            提交
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,147 @@
+<section class="content-header">
+    <h1>
+        营销管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">优惠券设置</h3>
+                </div>
+                <!-- form start -->
+                <form class="form-horizontal" method="post" action="{:U('Home/Coupon/config')}">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="control-label col-md-2">开启优惠券</label>
+
+                            <div class="col-md-7">
+                                <label class="radio-inline"><input name="coupon" type="radio"
+                                    <if condition="$coupon eq 1">checked="checked"</if>
+                                    value="1"><span>开启</span></label>
+                                <label class="radio-inline"><input name="coupon" type="radio"
+                                    <if condition="$coupon eq 0">checked="checked"</if>
+                                    value="0"><span>关闭</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <div class="col-sm-2">
+                            <button type="submit" class="btn btn-block btn-danger">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">优惠券管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a href="{:U('Home/Coupon/addCoupon')}" class="btn btn-danger ">
+                                新增优惠券
+                            </a>
+                        </div>
+                        <!-- /.btn-group -->
+                    </div>
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th class="hidden-xs">
+                                    <label><input onchange="checkAll()" type="checkbox" value=""></label>
+                                </th>
+                                <th>店铺名称</th>
+                                <th>名称</th>
+                                <th>金额</th>
+                                <th>满多少</th>
+                                <th>总数量</th>
+                                <th>剩余数量</th>
+                                <th>创建时间</th>
+                                <th>失效时间</th>
+
+                                <th>操作</th>
+                            </tr>
+
+                            <volist name="coupons" id="coupon">
+                                <tr>
+                                    <td class="hidden-xs">
+                                        <label><input name="checkbox" class="check" type="checkbox" value="{$menu.id}"></label>
+                                    </td>
+                                    <td>
+                                        <span>{$coupon.shop.name}</span>
+                                    </td>
+                                    <td>
+                                        <span>{$coupon.name}</span>
+                                    </td>
+                                    <td>
+                                        <span style="background-color: #dd4b39;" class="badge">{$coupon.money}元</span>
+                                    </td>
+                                    <td>
+                                        <span style="background-color: #dd4b39;" class="badge">{$coupon.con}元</span>
+                                    </td>
+                                    <td>
+                                        <span>{$coupon.number}</span>
+                                    </td>
+                                    <td>
+                                        <span>{$coupon.last_number}</span>
+                                    </td>
+                                    <td>
+                                        <span>{$coupon['ctime']}</span>
+                                    </td>
+                                    <td>
+                                        <span>{$coupon['last_time']}</span>
+                                    </td>
+
+                                    <td class="table-action"><a
+                                            href="{:U('Home/Coupon/detail',array('id'=>$coupon['id']))}">详情</a><a
+                                            href="{:U('Home/Coupon/delCoupon',array('id'=>$coupon['id']))}">删除</a>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-danger "
+                                            onclick="batchUrl('{:U(\'Home/Shop/delMenu\')}')">全部删除
+                                    </button>
+                                </div>
+                                <!-- /.btn-group -->
+                                <div class="pull-right">
+                                    {$page}
+                                    <!-- /.btn-group -->
+                                </div>
+                                <!-- /.pull-right -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>
+

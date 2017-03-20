@@ -1,0 +1,94 @@
+<section class="content-header">
+    <h1>
+        用户管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">管理员管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a href="{:U('Admin/User/addAdmin')}" class="btn btn-danger ">
+                                新增管理员
+                            </a>
+                        </div>
+                        <!-- /.btn-group -->
+                    </div>
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th class="hidden-xs">
+                                    <label><input onchange="checkAll()" type="checkbox" value=""></label>
+                                </th>
+                                <th>ID</th>
+                                <th>用户名</th>
+                                <th>用户组</th>
+                                <th>手机号</th>
+                                <th>邮箱</th>
+                                <th>状态</th>
+                                <th>备注</th>
+                                <th>时间</th>
+                                <th>操作</th>
+                            </tr>
+                            <volist name="userList" id="user">
+                                <tr>
+                                    <td class="hidden-xs">
+                                        <label><input name="checkbox" class="check" type="checkbox" value="{$user.id}"></label>
+                                    </td>
+                                    <td>{$user.id}</td>
+                                    <td>{$user.username}</td>
+                                    <td>{$user.group.title}</td>
+                                    <td>{$user.phone}</td>
+                                    <td>{$user.email}</td>
+                                    <td>
+                                        <if condition="$user.status eq 1">启用</if>
+                                        <if condition="$user.status eq 0"><span style="color: red">禁用</span></if>
+                                    </td>
+                                    <td>{$user.remark}</td>
+                                    <td>{$user.time}</td>
+                                    <td class="table-action"><a
+                                            href="{:U('Admin/User/modAdmin',array('id'=>$user['id']))}">修改</a>
+                                        <gt name="user.id" value="1">
+                                            <a href="{:U('Admin/User/delAdmin',array('id'=>$user['id']))}">删除</a>
+                                        </gt>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-danger"
+                                            onclick="batchUrl('{:U(\'Admin/User/delAdmin\')}')">全部删除
+                                    </button>
+                                </div>
+                                <!-- /.btn-group -->
+                                <div class="pull-right">
+                                    {$page}
+                                    <!-- /.btn-group -->
+                                </div>
+                                <!-- /.pull-right -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

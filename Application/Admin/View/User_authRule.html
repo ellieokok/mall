@@ -1,0 +1,51 @@
+<section class="content-header">
+    <h1>
+        用户管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">权限管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th>ID</th>
+                                <th>名称</th>
+                                <th>控制器/方法</th>
+                                <th>菜单状态</th>
+                                <th>时间</th>
+                            </tr>
+                            <volist name="authRuleList" id="rule">
+                                <tr>
+                                    <td>{$rule.id}</td>
+                                    <td>{$rule.title}</td>
+                                    <td>{$rule.name}</td>
+                                    <td>
+                                        <eq name="rule.status" value="1">启用<else/>禁用</eq>
+                                    </td>
+                                    <td>{$rule.time}</td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

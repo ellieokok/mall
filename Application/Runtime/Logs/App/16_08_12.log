@@ -1,0 +1,38 @@
+[ 2016-08-12T10:01:53+08:00 ] 127.0.0.1 /App/Artical/index/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [2] Declaration of Common\Model\ArticalModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\ArticalModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\ArticalModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\ArticalModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\ArticalModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\ArticalModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `multi_artical` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0159s ]
+NOTIC: [2] Declaration of Common\Model\FileModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2] Declaration of Common\Model\FileModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2] Declaration of Common\Model\FileModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='348' ) LIMIT 1   [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='203' ) LIMIT 1   [ RunTime:0.0162s ]
+SQL: UPDATE `multi_artical` SET `visiter`=visiter+1 WHERE `id` = 15 [ RunTime:0.0235s ]
+NOTIC: [2] Declaration of Common\Model\ConfigModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\ConfigModel.class.php 第 51 行.
+NOTIC: [2] Declaration of Common\Model\ConfigModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\ConfigModel.class.php 第 51 行.
+NOTIC: [2] Declaration of Common\Model\ConfigModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\ConfigModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `multi_config` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `multi_config` LIMIT 1   [ RunTime:0.0162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000662s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+

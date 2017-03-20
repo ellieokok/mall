@@ -1,0 +1,114 @@
+<section class="content-header">
+    <h1>
+        微信设置
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">微信设置</h3>
+                </div>
+                <!-- form start -->
+                <form class="form-horizontal" method="post" action="{:U('Admin/Weixin/wxSet')}">
+                    <div class="box-body">
+                        <input class="form-control" name="id" placeholder="" value="{$config['id']?$config['id']:0}"
+                               type="hidden">
+                        <div class="form-group">
+                            <label class="control-label col-md-2">url</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="url" placeholder="" disabled value="{$url}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">token</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="token" placeholder="" value="{$config.token}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2">appid</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="appid" placeholder="" value="{$config.appid}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">appsecret</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="appsecret" placeholder="" value="{$config.appsecret}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">encodingaeskey</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="encodingaeskey" placeholder=""
+                                       value="{$config.encodingaeskey}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2">微信二维码支付</label>
+
+                            <div class="col-md-7">
+                                <label class="radio-inline"><input name="switch" type="radio"
+                                    <if condition="$config.switch eq 1">checked="checked"</if>
+                                    value="1"><span>开启</span></label>
+                                <label class="radio-inline"><input name="switch" type="radio"
+                                    <if condition="$config.switch eq 0">checked="checked"</if>
+                                    value="0"><span>关闭</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">mchid</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="mchid" placeholder="" value="{$config.mchid}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">key</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="key" placeholder="" value="{$config.key}"
+                                       type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <div class="col-sm-2">
+                            <button type="submit" class="btn btn-block btn-danger">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+</section>
+

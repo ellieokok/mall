@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="微信">
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="0">
+    <title>{$config.name}</title>
+    <link href="__CSS__/activity-style2.css" rel="stylesheet" type="text/css">
+    <link href="__CSS__/pan.css" rel="stylesheet" type="text/css">
+</head>
+<body class="activity-lottery-winning">
+<div id="loader" style="text-align: center;height:30px;line-height: 30px;background: white;display: none;"><img
+        src="__IMG__/load.gif" align="absmiddle"/> 请稍后，数据传输中 ...
+</div>
+<div class="main">
+    <script src="__JS__/jquery.min.js" type="text/javascript"></script>
+    <div class="panBg">
+        <img src="__IMG__/header.png" class="headerImg">
+
+        <div class="wenZi">
+            <img src="__IMG__/dazhuanpan.png" class="zhuanPan">
+        </div>
+
+        <div id="outercont">
+            <div id="outer-cont">
+                <div id="outer"><img src="__IMG__/zp8-.png"></div>
+            </div>
+            <div id="inner-cont">
+                <div id="inner"><img src="__IMG__/activity-lottery-2.png"></div>
+            </div>
+        </div>
+
+        <div class="btnBox">
+            <button class="left" id="myPrizes">我的奖品</button>
+            <button class="right" id="goToMall" onclick="location.href = '{:U(\'App/Index/index\')}'">进店逛逛</button>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="explain"><span id="explain">活动说明&gt;&gt;</span></div>
+        <div class="copyright">由 inuoer 技术支持</div>
+    </div>
+
+    <div class="ruleBox" id="rule" style="display: none;">
+        <span class="close"></span>
+
+        <div class="content">
+            <h4>活动时间</h4>
+
+            <p id="activityTime">{$config.activity_time}</p>
+            <!--<h4>奖项设置</h4>
+            <p  id="activityPrize"></p>-->
+            <h4>活动说明</h4>
+            <pre id="descriptor">{$config.activity_explain}</pre>
+        </div>
+    </div>
+
+    <div class="ruleBox" id="winPrize" style="display: none;">
+        <span class="close"></span>
+
+        <div class="content">
+            <div class="null"><empty name="record['level']">暂无奖品，继续加油哦~<else/>恭喜您获得
+                {$record.level}等奖<br/>时间：{$record.time}</empty></div>
+        </div>
+    </div>
+
+    <div class="shareTip" id="shareTip"></div>
+
+    <div class="popup not" id="not" style="display: none;">
+        <div class="content">
+            <em></em>
+
+            <div class="text">很遗憾，您未中奖!</div>
+            <div class="buttonBox">
+                <button class="ok">知道了</button>
+            </div>
+        </div>
+        <!--end content-->
+    </div>
+
+    <div class="popup lost" id="lost" style="display: none;">
+        <div class="content">
+            <em></em>
+
+            <div class="text">点击右上角按钮，分享到朋友圈</div>
+            <div class="buttonBox">
+                <button class="ok">知道了</button>
+            </div>
+        </div>
+        <!--end content-->
+    </div>
+
+    <div class="popup win" id="win" style="display: none;">
+        <div class="content">
+            <em></em>
+
+            <div class="text">恭喜您得到<span id="winlevel"></span>等奖</div>
+            <div class="buttonBox">
+                <button class="cancel" onclick="leave();">低调离开</button>
+                <button class="ok mr_left10" onclick="flaunt();">立即炫耀</button>
+            </div>
+        </div>
+        <!--end content-->
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        window.requestAnimFrame = (function () {
+            return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame ||
+                    function (callback) {
+                        window.setTimeout(callback, 1000 / 60);
+                    }
+        })();
+        var totalDeg = 360 * 3 + 0;
+        var steps = [];
+
+        var lostDeg = [72, 128, 180 , 230 , 285 , 360];
+//        var prizeDeg = [36, 102, 158, 202, 259, 314];
+        var prizeDeg = [314, 259, 202, 158, 102, 36];
+        var prize, sncode;
+        var count = 0;
+        var now = 0;
+        var a = 0.01;
+        var outter, inner, timer, running = false;
+        var level = 0;
+
+        function countSteps() {
+            var t = Math.sqrt(2 * totalDeg / a);
+            var v = a * t;
+            for (var i = 0; i < t; i++) {
+                steps.push((2 * v * i - a * i * i) / 2)
+            }
+            steps.push(totalDeg)
+        }
+
+        function step() {
+            outter.style.webkitTransform = 'rotate(' + steps[now++] + 'deg)';
+            outter.style.MozTransform = 'rotate(' + steps[now++] + 'deg)';
+            if (now < steps.length) {
+                running = true;
+                requestAnimFrame(step)
+            } else {
+//                running = false;
+
+                if (level == 0) {
+                    $('#not').show();
+                } else {
+                    $('#win').show();
+                    $('#winlevel').html(level);
+                }
+            }
+        }
+
+        function start(deg) {
+            deg = deg || lostDeg[parseInt(lostDeg.length * Math.random())];
+            running = true;
+            clearInterval(timer);
+            totalDeg = 360 * 5 + deg;
+            steps = [];
+            now = 0;
+            countSteps();
+            requestAnimFrame(step);
+        }
+
+        window.start = start;
+        outter = document.getElementById('outer');
+        inner = document.getElementById('inner');
+        i = 10;
+        $("#inner").click(function () {
+
+//            if (running) {
+//                alert("今日已用完，请明天再来!");
+//                return;
+//            }
+
+            $('#loader').show();
+            $('#inner-cont').css('top', '-210px');
+
+            $.get("{:u_addons('Wheel://App/Index/lotteryJson')}", function (rid) {
+                level = rid;
+                $('#loader').hide();
+                $('#inner-cont').css('top', '-210px');
+                if(rid == "-1"){
+                    alert("今日已用完，请明天再来!");
+                    return;
+                }
+                if (rid == 0) {
+                    start();
+                } else {
+                    start(prizeDeg[rid - 1]);
+                }
+            });
+        });
+
+        $(".close").click(function () {
+            $(this).parent().hide();
+        });
+
+        $('#explain').click(function(){
+            $('#rule').show();
+        });
+
+        $('#myPrizes').click(function () {
+            $('#winPrize').show();
+        });
+
+        $('.ok').click(function () {
+            $('.popup').hide();
+        });
+
+        $('#shareTip').click(function () {
+            $(this).hide();
+            location.reload();
+        });
+    });
+    function leave(){
+        $('#win').hide();
+        location.reload();
+    }
+
+    function flaunt(){
+        $('#win').hide();
+        $('#shareTip').show();
+    }
+</script>
+</body>
+</html>

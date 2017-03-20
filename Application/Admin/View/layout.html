@@ -1,0 +1,138 @@
+<include file="Public:header"/>
+<body class="hold-transition skin-red-light sidebar-mini">
+<div class="wrapper">
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="{:U('Admin/Index/index')}" target="_self" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>We</b>Mall</span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>WeMall</b>管理后台</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <!--信息通知-->
+                    <!--<li class="dropdown messages-menu">-->
+                        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">-->
+                            <!--<i class="fa fa-envelope-o"></i>-->
+                        <!--</a>-->
+                        <!--<ul class="dropdown-menu">-->
+
+                        <!--</ul>-->
+                    <!--</li>-->
+                    <!-- Notifications: style can be found in dropdown.less -->
+                    <li class="dropdown notifications-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-bell-o"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </li>
+                    <!-- Tasks: style can be found in dropdown.less -->
+                    <!--手机端预览-->
+                    <!--<li class="dropdown tasks-menu">-->
+                        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">-->
+                            <!--<i class="fa fa-flag-o"></i>-->
+                        <!--</a>-->
+                        <!--<ul class="dropdown-menu" style="height: 796px;max-width: 377px">-->
+                            <!--<include file="Public:preview"/>-->
+                        <!--</ul>-->
+                    <!--</li>-->
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="__PUBLIC__/Admin/dist/img/avatar-wemall.png" class="user-image" alt="User Image">
+                            <span class="hidden-xs">{$Think.session.adminName}</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="__PUBLIC__/Admin/dist/img/avatar-wemall.png" class="img-circle"
+                                     alt="User Image">
+
+                                <p>
+                                    {$Think.session.adminName}
+                                    <small>管理员</small>
+                                </p>
+                            </li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <a href="{:U('Admin/Public/logout')}" target="_self"
+                                   class="btn btn-default btn-flat">注销</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Control Sidebar Toggle Button -->
+                    <li>
+                        <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- Sidebar user panel -->
+            <!-- search form -->
+            <form action="#" method="get" class="sidebar-form" style="display: none">
+                <div class="input-group">
+                    <input type="text" name="q" class="form-control" placeholder="搜索..." onclick="layer.msg('此功能预留')">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+                </div>
+            </form>
+            <!-- /.search form -->
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" style="margin-top: 12px">
+                <include file="Index:left"/>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper" id="pjax-container">
+        <!-- Content Header (Page header) -->
+        {__CONTENT__}
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 5.1.0
+        </div>
+        <strong>Copyright &copy; 2014-2016 <a href="http://www.inuoer.com">inuoer.com</a>.</strong> All rights
+        reserved.
+    </footer>
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-light">
+
+    </aside>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+         immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+<div id="loading" style="top: 150px;">
+    <div class="lbk"></div>
+    <div class="lcont"><img src="__PUBLIC__/Admin/dist/img/loading.gif" alt="loading...">正在加载...</div>
+</div>
+
+<include file="Public:footer"/>
+</body>
+</html>

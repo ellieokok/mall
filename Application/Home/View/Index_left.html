@@ -1,0 +1,92 @@
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-dashboard"></i> <span>店铺首页</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Home/Index/index')}"><i class="fa "></i>店铺首页</a></li>
+        <li><a href="{:U('Home/Index/productChart')}"><i class="fa "></i>商品分析</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-gears"></i> <span>系统设置</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Home/Shop/modifyShop')}"><i class="fa "></i>商城设置</a></li>
+        <li><a href="{:U('Home/Config/address')}"><i class="fa "></i>地址设置</a></li>
+        <li><a href="{:U('Home/Config/wxPrintSet')}"><i class="fa "></i>微信打印机设置</a></li>
+
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-shopping-cart"></i> <span>商城管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <!--<li><a href="{:U('Home/Shop/shop')}"><i class="fa "></i>店铺管理</a></li>-->
+        <li><a href="{:U('Home/Shop/ads')}"><i class="fa "></i>广告管理</a></li>
+        <li><a href="{:U('Home/Shop/menu')}"><i class="fa "></i>菜单管理</a></li>
+        <li><a href="{:U('Home/Shop/label')}"><i class="fa "></i>标签管理</a></li>
+        <li><a href="{:U('Home/Shop/product')}"><i class="fa "></i>商品管理</a></li>
+        <li><a href="{:U('Home/Shop/comment')}"><i class="fa "></i>评论管理</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-edit"></i> <span>文章管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Home/Artical/artical')}"><i class="fa "></i>文章管理</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-bar-chart"></i> <span>订单管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Home/Order/order',array('day'=>date('Y-m-d')))}"><i class="fa "></i>当天订单</a></li>
+        <li><a href="{:U('Home/Order/order')}"><i class="fa "></i>全部订单</a></li>
+        <li><a href="{:U('Home/Order/order',array('pay_status'=>0))}"><i class="fa "></i>未付款</a></li>
+        <li><a href="{:U('Home/Order/order',array('pay_status'=>1))}"><i class="fa "></i>已付款</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>0))}"><i class="fa "></i>未处理</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>1))}"><i class="fa "></i>已发货</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>-4))}"><i class="fa "></i>申请退货</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>-2))}"><i class="fa "></i>退货中</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>-3))}"><i class="fa "></i>退货完成</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>2))}"><i class="fa "></i>交易完成</a></li>
+        <li><a href="{:U('Home/Order/order',array('status'=>-1))}"><i class="fa "></i>交易取消</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-credit-card"></i> <span>财务管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Home/Trade/trade')}"><i class="fa "></i>财务管理</a></li>
+        <li><a href="{:U('Home/Trade/tx')}"><i class="fa "></i>提现管理</a></li>
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-group"></i> <span>用户管理</span> <i
+            class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="{:U('Home/User/user')}"><i class="fa "></i>用户管理</a></li>
+        <li><a href="{:U('Home/User/employee')}"><i class="fa "></i>员工管理</a></li>
+    </ul>
+</li>
+
+

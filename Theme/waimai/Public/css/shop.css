@@ -1,0 +1,341 @@
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body{
+    margin: 0
+}
+
+a {
+    background: 0 0;
+    text-decoration: none !important;
+    cursor: pointer
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+img {
+    border: 0;
+    max-width: 100%
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+.grst-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.eleme-svg:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: 0 0
+}
+
+body {
+    min-width: 20em;
+    width: 100%;
+    background: #f2f2f2;
+    color: #333;
+    font: 100%/1.5 "Helvetica Neue", "Microsoft Yahei", sans-serif
+}
+
+p {
+    margin: 0 0 .6em
+}
+
+
+a:focus {
+    outline: 0;
+    text-decoration: underline
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    vertical-align: middle;
+    line-height: 1
+}
+.eleme-svg {
+    margin: 0
+}
+
+.eleme-svg.svg-rating-star {
+    width: 50px;
+    height: 10px
+}
+
+.eleme-svg.svg-rating-star .svg-rating-star-active {
+    fill: #fdcc00
+}
+
+.eleme-svg.svg-rating-star .svg-rating-star-inactive {
+    fill: #d1d1d1
+}
+
+
+span.icon-pay {
+    font-size: 16px
+}
+
+
+.rst-badge,
+.rst-badge-large {
+    display: inline-block;
+    padding: 0 2px;
+    border-radius: 2px;
+    font-weight: 400!important;
+    vertical-align: text-bottom;
+    text-align: center
+}
+
+.rst-badge,
+.rst-badge-large {
+    background: #ff6000;
+    color: #fff
+}
+
+.rst-badge {
+    height: 14px;
+    min-width: .625rem;
+    font-size: .625rem!important;
+    line-height: 14px!important
+}
+
+.rst-badge-large {
+    height: 16px;
+    min-width: .75rem;
+    font-size: .75rem!important;
+    line-height: 16px!important
+}
+
+
+.activity-offline {
+    color: #FF6000;
+    line-height: 1.5em
+}
+
+.grst-block {
+    padding: 16px 20px;
+    border-bottom: 2px solid #f5f5f5;
+    color: #333
+}
+
+.grst-block:focus {
+    background: #f5f5f5;
+    text-decoration: none
+}
+
+
+.grst-logo {
+    display: block;
+    margin-right: 16px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    width: 42px;
+    height: 42px
+}
+
+.grst-detail {
+    width: 80%;
+    line-height: 1
+}
+
+.grst-name {
+    font-size: 1.05em;
+    line-height: 1.2;
+    word-break: break-all
+}
+
+.grst-name>.rst-badge-large {
+    position: relative;
+    top: -3px;
+    margin: 0 4px 0 0
+}
+
+.grst-name>.rst-badge-pay {
+    background: 0 0;
+    padding: 0
+}
+
+
+
+.grst-misc,
+.grst-sales {
+    color: #666;
+    font-size: .7em
+}
+
+.grst-activity-detail [class*=" icon-"],
+.grst-activity-detail>[class^=icon-] {
+    display: block
+}
+
+
+.grst-sales {
+    margin-left: 4px
+}
+
+.grst-misc {
+    margin-top: 4px
+}
+
+
+.grst-activity {
+    margin: 5px 0 0;
+    /*border-top: 1px solid #eee*/
+}
+
+.grst-activity-detail {
+    font-size: .7em;
+    color: #666;
+    margin: 5px 0 0
+}
+
+.grst-activity-detail>.rst-badge {
+    margin-right: 5px
+}
+.select-shopbar{
+    background-color:#FF4146;
+    color:white;
+}
+.shop-list{
+    background-color:#FFFFFF;
+}
+
+.dianpu-img{
+    width: 29px;
+    margin: 8px;
+}
+.pi_sousuo{
+    display:inline-block;
+    position:absolute;
+    line-height:40px;
+    height:40px;
+    width:40px;
+    left:5%;
+    margin-top:5px;
+    border-radius:3px;
+    color:#fff;
+    background: #fff url("../image/iconfont-sousuo.png") no-repeat center;
+    background-size: 25px 25px;
+}
+.pi_sousuo2{
+    display:inline-block;
+    position:absolute;
+    background:#ff4146;
+    line-height:40px;
+    width:60px;
+    right:5%;
+    margin-top:5px;
+    border-radius:3px;
+    color:#fff;
+    font-size: 14px;
+}
+.pi_sousuo1{
+    margin-top:45px;
+    width:100%;
+    height:50px;
+    text-align:center;
+    background-color:#f5f5f5;
+    /*position: fixed;*/
+}
+.pi_input{
+    padding-left:40px;
+    height:40px;
+    width:90%;
+    margin-top: 5px;
+    border-width:0;
+    border-radius:3px;
+    background-color:#fff;
+}
+#pi_back{
+    line-height:45px;
+    position:absolute;
+    display:inline-block;
+    right:0;
+    width:40px;
+    height:45px;
+    background:url("../image/iconfont-fanhui-copy.png") no-repeat center;
+    background-size: 20px 20px;
+}
+#pi_address{
+    font-size:13px;
+    background-color: #f5f5f5;
+    color: #A9A9A9;
+}
+
+/*替换css颜色*/
+.header-bar{
+    background-color: #16aad8;
+}
+.pi_sousuo2{
+    background:#16aad8;
+}
+.navigation-item.selected {
+    color: #16aad8;
+}
+#header-searchInput .input-group .search-btn{
+    background:#16aad8;
+}
+.shop-menu .lib{
+    color: #16aad8;
+    border-left: 3px solid #16aad8;
+}
+.mui-ellipsisa{
+    color: #16aad8;
+}
+.pi_next{
+    background: #16aad8 !important;
+}
+.confirmation-list .total-info .items-total-price{
+    color: #16aad8;
+}
+#shopmenu-cart .shopmenu-cart-bar .row-status{
+    background:#16aad8;
+}
+.confirmation-item .item-info, .confirmation-item .tuan-info{
+    color: #16aad8;
+}
+.pi_next1{
+    background: #16aad8 !important;
+}
+.payment .radio.selected + .label {
+    background-color: #16aad8;
+    border-color: #16aad8;
+}
+.orderResult-form .total-info .total{
+    color: #16aad8;
+}
+.order-status{
+    color: #16aad8;
+}
+#shopmenu-cart .shopmenu-cart-bar .row-num .cart-count{
+    background-color: #16aad8;
+}
+.detail-label{
+    color: #16aad8;
+}
+.attr-btn{
+    background-color: #16aad8 !important;
+}
+.select-area .btn-shopping{
+    background-color: #16aad8;
+    border-left: 27px solid #16a0d0;
+}
+.icon-hit{
+    background-color: #16aad8;
+}

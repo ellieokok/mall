@@ -1,0 +1,988 @@
+[ 2017-01-18T16:11:50+08:00 ] ::1 /multi_putong/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+
+[ 2017-01-18T16:11:50+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-01-18T16:11:51+08:00 ] ::1 /multi_putong/Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-01-18T16:12:00+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-01-18T16:12:03+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-01-18T16:12:08+08:00 ] ::1 /multi_putong/Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-01-18T16:12:13+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_user` WHERE `username` = '1' AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-01-18T16:12:16+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2017-01-18T16:12:16+08:00 ] ::1 /multi_putong/Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2017-01-18T16:12:26+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `multi_user` WHERE `username` = '1' AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-01-18T16:12:29+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2017-01-18T16:12:29+08:00 ] ::1 /multi_putong/Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2017-01-18T16:12:53+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-01-18T16:12:56+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-01-18T16:13:00+08:00 ] ::1 /multi_putong/Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-01-18T16:13:06+08:00 ] ::1 /multi_putong/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `multi_user` WHERE `username` = '2' AND `password` = 'c81e728d9d4c2f636f067f89cc14862c' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\ContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ContactModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Common\Model\ContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ContactModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `multi_contact` [ RunTime:0.1136s ]
+SQL: SELECT * FROM `multi_contact` WHERE ( 1=1 AND user_id='2' )  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AuthGroupAccessModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\AuthGroupAccessModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `multi_auth_group_access` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `multi_auth_group_access` WHERE ( 1=1 AND uid='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND user_id='2' )  [ RunTime:0.0005s ]
+
+[ 2017-01-18T16:13:07+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='63' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='64' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-01-18T16:13:07+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583aaeb2275aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-01-18T16:13:07+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583ab23968004.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-01-18T16:18:17+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0818s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0210s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0229s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='63' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='64' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-01-18T16:18:17+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583aaeb2275aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-01-18T16:18:17+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583ab23968004.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-01-18T16:18:17+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583aaeb2275aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-01-18T16:18:17+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583ab23968004.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-01-18T16:18:25+08:00 ] ::1 /multi_putong/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `shop_id` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0319s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `shop_id` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_artical` ORDER BY id desc LIMIT 10   [ RunTime:0.0365s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\0d6509e863112dc5821b22ecb897e16e.php 第 184 行.
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\0d6509e863112dc5821b22ecb897e16e.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-01-18T16:18:29+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='63' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='64' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2017-01-18T16:18:29+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583aaeb2275aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-01-18T16:18:29+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583ab23968004.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-01-18T16:18:29+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583aaeb2275aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-01-18T16:18:29+08:00 ] ::1 /multi_putong/Public/Uploads/2016-11-27/583ab23968004.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-01-18T16:19:25+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+ERR: 1146:Table 'test.multi_shop' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_shop`
+ERR: 1146:Table 'test.multi_shop' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_shop`
+
+[ 2017-01-18T16:19:33+08:00 ] ::1 /multi_putong/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `shop_id` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `shop_id` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+ERR: 1146:Table 'test.multi_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_user`
+ERR: 1146:Table 'test.multi_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_user`
+
+[ 2017-01-18T16:27:50+08:00 ] ::1 /multi_putong/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `shop_id` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `shop_id` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.1397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `multi_artical` ORDER BY id desc LIMIT 10   [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\0d6509e863112dc5821b22ecb897e16e.php 第 184 行.
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\0d6509e863112dc5821b22ecb897e16e.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-01-18T16:27:56+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-01-18T16:27:57+08:00 ] ::1 /multi_putong/Home/AddShop/addShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 212 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 218 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 229 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 244 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 261 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 264 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 274 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 277 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 287 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 294 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 301 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 308 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 316 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 326 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 331 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 358 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 361 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 368 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 379 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 389 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 396 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 451 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 452 行.
+NOTIC: [8] Undefined variable: shop F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\6f2515acc5fef9f08ca5f10ee203f568.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-01-18T16:28:02+08:00 ] ::1 /multi_putong/Home/File/imageUploader
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 15 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 15 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_file` ORDER BY id desc LIMIT 0,12   [ RunTime:0.0355s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_file` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-01-18T16:28:09+08:00 ] ::1 /multi_putong/Home/Shop/addShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0524s ]
+SQL: INSERT INTO `multi_shop` (`id`,`name`,`subname`,`file_id`,`shoplist`,`notification`,`reminder`,`tel`,`qq`,`address`,`lng`,`lat`,`full`,`discount`,`freight`,`delivery_time`,`remark`,`user_id`) VALUES ('0','1111','1','51','1','','','','','','','','','','','','','2') [ RunTime:0.2390s ]
+SQL: SHOW COLUMNS FROM `multi_analysis` [ RunTime:0.0857s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2017-01-18%' LIMIT 1   [ RunTime:0.1159s ]
+SQL: SELECT * FROM `multi_analysis` WHERE `time` LIKE '2017-01-18%' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 F:\xampp\htdocs\multi_putong\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `multi_analysis` (`trades`,`registers`,`users`) VALUES ('0','0','0') [ RunTime:0.0662s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-01-18T16:28:10+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='51' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-01-18T16:28:13+08:00 ] ::1 /multi_putong/Home/Shop/switchShop/id/199
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `multi_shop` WHERE `id` = 199 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-01-18T16:28:13+08:00 ] ::1 /multi_putong/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` WHERE `shop_id` = 199 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `multi_order` WHERE `shop_id` = 199 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+NOTIC: [2048] Declaration of Common\Model\ArticalModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ArticalModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `multi_artical` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `multi_artical` ORDER BY id desc LIMIT 10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\0d6509e863112dc5821b22ecb897e16e.php 第 184 行.
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\0d6509e863112dc5821b22ecb897e16e.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-01-18T16:28:19+08:00 ] ::1 /multi_putong/Home/Index/productChart?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 7 for Common\Model\ProductModel::getProductList(), called in F:\xampp\htdocs\multi_putong\Application\Home\Controller\IndexController.class.php on line 37 and defined F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 68 行.
+SQL: SELECT * FROM `multi_product` WHERE `shop_id` = 199 ORDER BY sales desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-01-18T16:28:22+08:00 ] ::1 /multi_putong/Home/Shop/product?_pjax=%23pjax-container
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 7 for Common\Model\ProductModel::getProductList(), called in F:\xampp\htdocs\multi_putong\Application\Home\Controller\ShopController.class.php on line 132 and defined F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 68 行.
+SQL: SELECT * FROM `multi_product` WHERE `shop_id` = 199 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\UserFavoritesModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserFavoritesModel.class.php 第 138 行.
+NOTIC: [2048] Declaration of Common\Model\UserFavoritesModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserFavoritesModel.class.php 第 138 行.
+NOTIC: [2048] Declaration of Common\Model\UserFavoritesModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserFavoritesModel.class.php 第 138 行.
+ERR: 1146:Table 'test.multi_user_favorites' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_user_favorites`
+ERR: 1146:Table 'test.multi_user_favorites' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_user_favorites`
+
+[ 2017-01-18T16:28:22+08:00 ] ::1 /multi_putong/Home/Shop/product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 7 for Common\Model\ProductModel::getProductList(), called in F:\xampp\htdocs\multi_putong\Application\Home\Controller\ShopController.class.php on line 132 and defined F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 68 行.
+SQL: SELECT * FROM `multi_product` WHERE `shop_id` = 199 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\UserFavoritesModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserFavoritesModel.class.php 第 138 行.
+NOTIC: [2048] Declaration of Common\Model\UserFavoritesModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserFavoritesModel.class.php 第 138 行.
+NOTIC: [2048] Declaration of Common\Model\UserFavoritesModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserFavoritesModel.class.php 第 138 行.
+ERR: 1146:Table 'test.multi_user_favorites' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_user_favorites`
+ERR: 1146:Table 'test.multi_user_favorites' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `multi_user_favorites`
+
+[ 2017-01-18T16:28:29+08:00 ] ::1 /multi_putong/Home/Index/productChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') F:\xampp\htdocs\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0479s ]
+NOTIC: [2] Missing argument 7 for Common\Model\ProductModel::getProductList(), called in F:\xampp\htdocs\multi_putong\Application\Home\Controller\IndexController.class.php on line 37 and defined F:\xampp\htdocs\multi_putong\Application\Common\Model\ProductModel.class.php 第 68 行.
+SQL: SELECT * FROM `multi_product` WHERE `shop_id` = 199 ORDER BY sales desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\099c6a4cfb91e941c1f6b5941a812c51.php 第 184 行.
+NOTIC: [8] Undefined variable: member F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\099c6a4cfb91e941c1f6b5941a812c51.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-01-18T16:28:34+08:00 ] ::1 /multi_putong/Home/AddShop/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `multi_shop` WHERE `user_id` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='51' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\xampp\htdocs\multi_putong\Application\Common\Model\UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_shop` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+NOTIC: [8] Array to string conversion F:\xampp\htdocs\multi_putong\Application\Runtime\Cache\Home\493a124d022cf368eb5abc972898b1b7.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+

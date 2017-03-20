@@ -1,0 +1,86 @@
+[ 2016-03-17T14:11:59+08:00 ] 122.114.121.102 /waimai/Admin/Wechat/sendTplMsgOrder?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `waimai_wx_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `waimai_wx_config` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `waimai_wx_config` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxTplmsgModel.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxTplmsgModel.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxTplmsgModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `waimai_wx_tplmsg` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `waimai_wx_tplmsg` WHERE `template_id_short` = 'OPENTM201785396' LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `waimai_order` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `waimai_order` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `waimai_order_contact` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `waimai_order_contact` WHERE ( 1=1 AND order_id='73' ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/UserModel.class.php 第 77 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/UserModel.class.php 第 77 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/UserModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `waimai_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `waimai_user` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.0036s ]
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `waimai_order_detail` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `waimai_order_detail` WHERE ( 1=1 AND order_id='73' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `waimai_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002527s ]
+
+[ 2016-03-17T14:12:42+08:00 ] 122.114.121.102 /waimai/Admin/Wechat/sendTplMsgPay?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\WxConfigModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxConfigModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `waimai_wx_config` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `waimai_wx_config` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `waimai_wx_config` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxTplmsgModel.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxTplmsgModel.class.php 第 89 行.
+NOTIC: [2048] Declaration of Common\Model\WxTplmsgModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/WxTplmsgModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `waimai_wx_tplmsg` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `waimai_wx_tplmsg` WHERE `template_id_short` = 'OPENTM207791277' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `waimai_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `waimai_order` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `waimai_order_contact` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `waimai_order_contact` WHERE ( 1=1 AND order_id='73' ) LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/UserModel.class.php 第 77 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/UserModel.class.php 第 77 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/UserModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `waimai_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `waimai_user` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/waimai/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `waimai_order_detail` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `waimai_order_detail` WHERE ( 1=1 AND order_id='73' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `waimai_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+

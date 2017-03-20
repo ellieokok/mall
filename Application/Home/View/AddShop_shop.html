@@ -1,0 +1,215 @@
+<include file="Public:header"/>
+<body class="hold-transition skin-red-light sidebar-mini">
+
+    <div id="top"></div>
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b></b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>wemall</b>管理后台</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="__PUBLIC__/Admin/dist/img/avatar-wemall.png" class="user-image" alt="User Image">
+                            <span class="hidden-xs">{$Think.session.homeName}</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="__PUBLIC__/Admin/dist/img/avatar-wemall.png" class="img-circle"
+                                     alt="User Image">
+
+                                <p>
+                                    {$Think.session.homeName}
+                                    <small>管理员</small>
+                                </p>
+                            </li>
+                            <style type="text/css">
+                                .infobox {
+                                    display: inline-block;
+                                    width: 100%;
+                                    color: #555;
+                                    background-color: #FFF;
+                                    box-shadow: none;
+                                    margin: -1px 0 0 -1px;
+                                    padding: 8px 3px 6px 9px;
+                                    border: 1px dotted;
+                                    border-color: #D8D8D8 !important;
+                                    vertical-align: middle;
+                                    text-align: left;
+                                    position: relative;
+                                }
+
+                                .infobox > .infobox-data {
+                                    display: inline-block;
+                                    border-width: 0;
+                                    font-size: 13px;
+                                    text-align: left;
+                                    line-height: 21px;
+                                    min-width: 130px;
+                                    padding-left: 8px;
+                                    position: relative;
+                                    top: 0;
+                                }
+
+                                .infobox > .infobox-data > .infobox-data-number {
+                                    display: block;
+                                    font-size: 22px;
+                                    margin: 2px 0 4px;
+                                    position: relative;
+                                    text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+                                }
+
+                                .infobox .infobox-content {
+                                    color: #555;
+                                }
+
+                                .get-member {
+                                    position: absolute;
+                                    right: 10px;
+                                    top: 12px;
+                                    cursor: pointer;
+                                }
+
+                                .label-sm {
+                                    padding: .2em .4em .3em;
+                                    font-size: 11px;
+                                    line-height: 1;
+                                    height: 18px;
+                                }
+                            </style>
+                            <li class="user-footer">
+                                <a href="{:U('Home/Public/logout')}" target="_self"
+                                   class="btn btn-default btn-flat">注销</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<section class="content-header" style="margin-left: 10%;margin-top:5px;width:80%;">
+    <h1>
+        WeMall店铺管理
+        <small></small>
+    </h1>
+
+    <!--<a href="{:U('Home/Public/logout')}" target="_self" class="pull-right" style="margin-left: 10px;position: relative;">-->
+    <!--    注销-->
+    <!--</a>-->
+    <!--<p class="pull-right">-->
+    <!--    {$Think.session.homeName}-->
+    <!--</p>-->
+    <!--<span class="pull-right">哈哈哈</span>-->
+</section>
+
+<!-- Main content -->
+<section class="content" style="width: 80%;min-height: auto;">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">店铺管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a href="{:U('Home/AddShop/addShop')}" class="btn btn-danger ">
+                                新增店铺
+                            </a>
+                        </div>
+                        <!-- /.btn-group -->
+                    </div>
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th>名称</th>
+                                <th>图片</th>
+                                <th>链接</th>
+                                <th>状态</th>
+                                <th>排序</th>
+                                <th>备注</th>
+                                <th>时间</th>
+                                <th>操作</th>
+                            </tr>
+                            <volist name="shopList" id="shop">
+                                <tr>
+                                    <td>
+                                        {$shop.name}
+                                    </td>
+                                    <td>
+                                        <if condition="$shop.savepath && $shop.savename">
+                                            <img style="height: 48px;max-width: 72px"
+                                                 src="__PUBLIC__/Uploads/{$shop.savepath}{$shop.savename}">
+                                        </if>
+                                    </td>
+                                    <td>
+                                        <div class="btn-group" style="margin: 0px">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                链接<span class="caret"></span></button>
+                                            <div class="dropdown-menu" style="padding: 10px;max-width: none;">
+                                                {$url}{:U('App/Index/index' , array('shopId'=>$shop['id']))}
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <if condition="$shop.status eq -1"><span style="color: red">已关闭</span></if>
+                                        <if condition="$shop.status eq 0"><span style="color: red">未审核</span></if>
+                                        <if condition="$shop.status eq 1"><span style="color: blue">休息中</span></if>
+                                        <if condition="$shop.status eq 2">营业中</if>
+                                    </td>
+                                    <td>
+                                        {$shop.rank}
+                                    </td>
+                                    <td>
+                                        {$shop.remark}
+                                    </td>
+                                    <td>
+                                        {$shop.time}
+                                    </td>
+                                    <td class="table-action">
+                                        <a target="_parent" href="{:U('Home/Shop/switchShop',array('id'=>$shop['id']))}">进入</a>
+                                        <a href="{:U('Home/Shop/delShop',array('id'=>$shop['id']))}">删除</a>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group" style="height: 45px">
+
+                                </div>
+                                <div class="pull-right">
+                                    {$page}
+                                    <!-- /.btn-group -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>
+
+<include file="Public:footer"/>
+</body>
+</html>

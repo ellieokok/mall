@@ -1,0 +1,81 @@
+<section class="content-header">
+    <h1>
+        会员卡设置
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">会员卡设置</h3>
+                </div>
+                <!-- form start -->
+                <form class="form-horizontal" method="post" action="{:u_addons('Card://Admin/Config/add')}">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">最新通知链接</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="notify_url" placeholder=""
+                                       value="{$config.notify_url}"
+                                       type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">地址</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="address" placeholder=""
+                                       value="{$config.address}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2">电话</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="tel" placeholder="" value="{$config.tel}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">会员卡说明链接</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="about_url" placeholder="" value="{$config.about_url}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">备注</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="remark" placeholder="" value="{$config.remark}"
+                                       type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <div class="col-sm-2">
+                            <button type="submit" class="btn btn-block btn-danger">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+</section>
+

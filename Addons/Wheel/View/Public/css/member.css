@@ -1,0 +1,605 @@
+body {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    background: url('../image/bk_repeat1_3.jpg') repeat-y right 0,
+    url('../image/bk_repeat1_2.jpg') repeat-y left 0,
+    url('../image/bk_top1_1.jpg') repeat-x 0 0,
+    url('../image/bk_repeat1_1.jpg') repeat 0 0,
+    #864c2c;
+    -webkit-background-size: 3.5px 23.5px,
+    3.5px 23.5px,
+    304.5px 93px,
+    313px 23.5px;
+    background-size: 3.5px 23.5px,
+    3.5px 23.5px,
+    304.5px 93px,
+    313px 23.5px;
+    /*box-shadow:inset 0 2px 1px #333;*/
+    background-position: left 0, right 0, 0 /*-55*/ -99px, 0 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body, article, section, h1, h2, hgroup, p, a, ul, ol, li, em, div, small, span, footer, canvas, figure, figcaption, input, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+img, fieldset {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.autotel {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+small, small em {
+    font-size: 15px;
+}
+
+figure[hidden] {
+    display: none;
+}
+
+input:focus {
+    outline: 0 none;
+    -webkit-user-modify: read-write-plaintext-only;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+}
+
+*[hidden] {
+    display: none !important;
+}
+
+.box:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: ".";
+}
+
+.box {
+    *zoom: 1;
+}
+
+#mappContainer {
+    height: 100%;
+}
+
+.inner {
+    display: block;
+    height: 100%;
+    padding: 0 3px;
+    text-align: center;
+}
+
+.center {
+    width: 313px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pdo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.pdo[hidden] {
+    display: none;
+}
+
+.footFix {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+/*圆角列表*/
+ul.round {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #F9F9FA;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid #C2C2C2;
+    border-width: 1px 1px 0 1px;
+    box-shadow: 0 1px 1px #f6f6f6;
+}
+
+body.zoomin ul.round {
+    overflow: visible;
+}
+
+.round:empty {
+    display: none;
+}
+
+.round,
+.round > li > a,
+.round > li > article > a {
+    color: #2D2D2D;
+}
+
+.round > li {
+    padding: 11px 10px;
+    border: solid #C2C2C2;
+    border-width: 0 0 1px 0;
+}
+
+.round > li:only-of-type {
+    /*border-width:0;*/
+}
+
+.round > li:first-of-type {
+}
+
+.round > li:last-of-type {
+    /*border-width:0;*/
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.round > li,
+.round > li > a,
+.round > li > article > a {
+    font-size: 16px;
+    color: #101010;
+    line-height: 23px;
+}
+
+.round > li > a,
+.round > li > article > a {
+    display: block;
+    -webkit-background-size: 8.5px 13px;
+    background-size: 8.5px 13px;
+}
+
+/*卡面基本*/
+.card {
+    width: 267px;
+    height: 159px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-background-size: 267px 159px;
+    background-size: 267px 159px;
+    text-align: left;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .6);
+}
+
+.card .logo {
+    max-height: 70px;
+    margin: 8px 0 0 6px;
+}
+
+/*已开卡*/
+#page_card {
+    background-position: left 0, right 0, 0 0, 0 0;
+    padding-bottom: 70px;
+    padding-top: 18px;
+}
+
+#page_bind .card,
+#page_card .card {
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+#page_bind .card h1,
+#page_card .card h1 {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    text-shadow: 0 1px rgba(255, 255, 255, .5);
+    color: #926a44;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: right;
+}
+
+#page_bind .card h2,
+#page_card .card h2 {
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    font-size: 9px;
+    line-height: 22px;
+    text-align: right;
+    color: #EDD3BA;
+    text-shadow: 1px 1px #A69079;
+}
+
+#page_card .inner > p {
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 6px;
+    min-height: 10px;
+}
+
+#page_card .inner > p span {
+    font-size: 14px;
+    color: #646464;
+    text-shadow: 0 1px #fff;
+    padding-left: 20px;
+    display: inline-block;
+    -webkit-background-size: 13px 14.5px;
+    background-size: 13px 14.5px;
+}
+
+#page_card .card .verify {
+    /*验证码*/
+    display: inline-block;
+    height: 40px;
+    top: 100px;
+    right: 12px;
+    text-align: right;
+    line-height: 24px;
+    color: #92724C;
+    font-size: 20px;
+    text-shadow: 0 1px rgba(223, 233, 243, .62);
+}
+
+#page_card .card .verify span {
+    display: inline-block;
+    text-align: left;
+}
+
+#page_card .card .verify em {
+    display: block;
+    line-height: 13px;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#page_card .inner > p {
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 6px;
+    min-height: 10px;
+}
+
+#page_card .inner > p span {
+    font-size: 14px;
+    color: #646464;
+    text-shadow: 0 1px #fff;
+    padding-left: 20px;
+    display: inline-block;
+    background: url('../image/show1.jpg') no-repeat 0 50%;
+    -webkit-background-size: 13px 14.5px;
+    background-size: 13px 14.5px;
+}
+
+#page_card ul.round {
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+
+#page_card ul.round > li {
+}
+
+#page_card ul.round > li > a {
+    line-height: 27px;
+    padding-left: 35px;
+}
+
+#page_card ul.round > li.tel,
+#page_card ul.round > li.addr {
+    position: relative;
+}
+
+#page_card ul.round > li.tel a {
+    padding-right: 60px;
+}
+
+#page_card ul.round > li.addr > a:first-of-type {
+    background: none;
+    padding-right: 60px;
+}
+
+#page_card ul.round > li.tel a {
+    z-index: 2;
+    position: relative;
+}
+
+#page_card ul.round > li.tel i {
+    z-index: 1;
+    display: inline-block;
+    height: 15px;
+    width: 13px;
+    position: absolute;
+    right: 52px;
+    top: 18px;
+    -webkit-background-size: 13px 15px;
+    background-size: 13px 15px;
+}
+
+#page_card ul#publics .topshop h2,
+#page_card ul#publics .city h2 {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 27px;
+    position: relative;
+    z-index: 1;
+}
+
+#page_card ul#publics .topshop a,
+#page_card ul#publics .city a {
+    display: block;
+    padding-right: 17px;
+    font-size: 10px;
+    color: #656565;
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+#page_card ul#privates li > a,
+#page_card ul#privates li article > a,
+#page_card ul#publics li > a,
+#page_card ul#publics li article > a {
+    padding-left: 30px;
+}
+
+#page_card ul#privates li > a.balance.pay {
+    position: relative;
+    line-height: 16px;
+    padding-bottom: 9px;
+}
+
+#page_card ul#privates li > a.balance.pay span {
+    color: #AFB0B0;
+    font-size: 10px;
+    line-height: 14px;
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    display: inline-block;
+}
+
+#page_card ul#privates li > a.balance.pay i {
+    color: #36B35F;
+    font-size: 10px;
+    font-style: normal;
+    line-height: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 12px;
+    top: 0;
+    display: inline-block;
+}
+
+#page_card .round li.group,
+#page_card .round li.power {
+    padding: 9px 10px 6px 10px;
+}
+
+#page_card .round li.group > a,
+#page_card .round li.group article > a,
+#page_card .round li.power > a,
+#page_card .round li.power article > a {
+    line-height: 18px;
+    font-size: 14px;
+    height: 38px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+#page_card .round li.group > a.oneline,
+#page_card .round li.group article > a.oneline,
+#page_card .round li.power > a.oneline,
+#page_card .round li.power article > a.oneline {
+    line-height: 30px;
+}
+
+#page_card .round li.group > a span,
+#page_card .round li.group article > a span,
+#page_card .round li.power > a span,
+#page_card .round li.power article > a span {
+    display: inline-block;
+    line-height: 16px;
+    font-size: 10px;
+    color: #9E9E9E;
+    float: left;
+    margin-right: 10px;
+}
+
+#page_card .round li.power > a em,
+#page_card .round li.power article > a em {
+    /*几张*/
+    display: inline-block;
+    line-height: 14.5px;
+    height: 14.5px;
+    font-size: 10px;
+    color: #fffffd;
+    font-style: normal;
+    white-space: nowrap;
+    padding: 0 6px 0 12px;
+    position: relative;
+    top: -3px;
+    -webkit-background-size: 8px 14.5px;
+    background-size: 8px 14.5px;
+}
+
+#page_card .round li.power > div {
+    /*展开*/
+    display: block;
+    margin: 12px -10px -6px -10px;
+    padding: 4px 10px 10px 10px;
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+    box-shadow: inset 5px 5px 5px #d9d9d9, inset -5px -5px 5px #d9d9d9;
+}
+
+#page_card .round li.power > div[hidden] {
+    display: none;
+}
+
+#page_card .round li.power > div > b:not(.num) {
+    line-height: 26px;
+    font-size: 13px;
+    color: #747474;
+    display: block;
+    text-align: left;
+}
+
+#page_card .round li.power > div > ul {
+    line-height: 18px;
+    text-align: left;
+}
+
+#page_card .round li.power > div > ul > li {
+    color: #797979;
+    font-size: 12px;
+    padding-left: 12px;
+    -webkit-background-size: 5px 5px;
+    background-size: 5px 5px;
+}
+
+#page_card .round li.power article > a > p {
+    display: inline-block;
+    padding-right: 17px;
+    text-align: inherit;
+    line-height: inherit;
+    min-height: 0;
+    margin-bottom: 0;
+    margin-left: 36px;
+}
+
+#page_card .round li.power article > a > p.new {
+    position: relative;
+}
+
+/*新券红点*/
+#page_card .round li.power article > a > p.new:after {
+    content: " ";
+    display: inline-block;
+    line-height: 9px;
+    font-size: 0;
+    position: absolute;
+    right: 0;
+    top: /*calc(50% - 11px)*/ 2px;
+    width: 9px;
+    height: 9px;
+    background-color: #dd2733;
+    background-image: -webkit-linear-gradient(top, #f4989d, #da1620);
+    border: 2px solid #fff;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    box-shadow: 0 2px 3px #cbcbcb;
+}
+
+#page_card .round li.power.oneline article > a > p.new:after,
+#page_card .round li.power article > a.oneline > p.new:after {
+    top: /*calc(50% - 8px)*/ 8px;
+}
+
+#page_card a.helpTel {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    width: auto;
+    outline: 0 none;
+    overflow: visible;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 11px;
+    color: #8a8a8a;
+    text-decoration: underline;
+    margin-top: -15px;
+    letter-spacing: 1px;
+}
+
+.toolbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: url('../image/bk_repeat1_3.jpg') repeat-y right 0,
+    url('../image/bk_repeat1_2.jpg') repeat-y left 0,
+    url('../image/bk_top1_1.jpg') repeat-x 0 0,
+    url('../image/bk_repeat1_1.jpg') repeat 0 0,
+    #864c2c;
+}
+
+.toolbar .back {
+    display: inline-block;
+    float: left;
+    margin: 10px 12px;
+    height: 20px
+}
+
+.toolbar .back img {
+    height: 20px
+}
+
+#registerForm {
+    width: 91%;
+    padding-bottom: 8px;
+}
+
+#rechargeForm > table {
+    width: 100%;
+}
+
+#rechargeForm > ul > li > input {
+    display: block;
+    float: left;
+}
+
+input {
+    margin-top: -1px;
+    padding: 8px 10px;
+    /*width: 100%;*/
+    width: auto;
+}
+
+#publics > .button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: url('../image/icon_power2.png') no-repeat 9px 8px;
+    -webkit-background-size: 24px 21px;
+    background-size: 24px 21px;
+}
+
+span > input {
+    width: 50%;
+}
+
+span > button {
+    float: right;
+    width: 49.7%;
+    height: 33px;
+    margin-right: -22px;
+    margin-top: -1px;
+}

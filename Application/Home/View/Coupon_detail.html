@@ -1,0 +1,63 @@
+<section class="content-header">
+    <h1>
+        营销管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">优惠券管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a href="javascript:history.go(-1)" class="btn btn-danger ">
+                                <= 返回
+                            </a>
+                        </div>
+                        <!-- /.btn-group -->
+                    </div>
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th>用户名</th>
+                                <th>状态</th>
+                                <th>时间</th>
+                            </tr>
+
+                            <volist name="details" id="detail">
+                                <tr>
+                                    <td>
+                                        <span>{$detail.user.username}</span>
+                                    </td>
+                                    <td>
+                                        <span><if condition="$detail.status eq 0">未使用</if>
+                                        <if condition="$detail.status eq 1">已使用</if>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>{$detail.time}</span>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>
+

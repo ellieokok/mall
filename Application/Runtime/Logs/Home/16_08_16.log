@@ -1,0 +1,297 @@
+[ 2016-08-16T09:31:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [2] Declaration of Home\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+
+[ 2016-08-16T09:31:32+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2016-08-16T09:31:32+08:00 ] 127.0.0.1 /Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2016-08-16T09:31:33+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-08-16T09:31:46+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [2] Declaration of Common\Model\UserModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `multi_user` WHERE `username` = 'donaldyu' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-08-16T09:31:49+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-08-16T09:31:50+08:00 ] 127.0.0.1 /Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2016-08-16T09:31:55+08:00 ] 127.0.0.1 /Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-08-16T09:31:59+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2] Declaration of Common\Model\UserModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_user` WHERE `username` = 'donaldyu' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-08-16T09:32:02+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-08-16T09:32:02+08:00 ] 127.0.0.1 /Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-08-16T09:46:36+08:00 ] 127.0.0.1 /m=App&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-08-16T09:53:54+08:00 ] 127.0.0.1 /Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2] Declaration of Home\Controller\BaseController::display($templateFile = '', $toggle = true) should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Home\Controller\BaseController.class.php 第 92 行.
+
+[ 2016-08-16T09:53:54+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-08-16T09:53:54+08:00 ] 127.0.0.1 /Home/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2016-08-16T09:53:58+08:00 ] 127.0.0.1 /Home/Public/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-08-16T09:54:07+08:00 ] 127.0.0.1 /Home/Public/checkName/username/donaldyu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2] Declaration of Common\Model\UserModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_user` WHERE `username` = 'donaldyu' LIMIT 1   [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-08-16T09:54:09+08:00 ] 127.0.0.1 /Home/Public/checkemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] Declaration of Common\Model\UserModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_user` WHERE `email` = '973028534@qq.com' LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-08-16T09:54:12+08:00 ] 127.0.0.1 /Home/Public/emailsms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-08-16T09:54:23+08:00 ] 127.0.0.1 /Home/Public/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [2] Declaration of Common\Model\UserModel::add($data) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::addAll($data) should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\UserModel::save($data) should be compatible with Think\Model::save($data = '', $options = Array) C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_user` WHERE `email` = '973028534@qq.com' LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: id C:\Users\D.Y\Documents\WebServer\Website\multi_putong\Application\Common\Model\UserModel.class.php 第 105 行.
+ERR: 1364:Field 'sex' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `multi_user` (`username`,`email`,`password`,`type`,`ctime`,`status`) VALUES ('donaldyu','973028534@qq.com','e10adc3949ba59abbe56e057f20f883e','2','2016-08-16 09:54:23','1')
+ERR: 1364:Field 'sex' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `multi_user` (`username`,`email`,`password`,`type`,`ctime`,`status`) VALUES ('donaldyu','973028534@qq.com','e10adc3949ba59abbe56e057f20f883e','2','2016-08-16 09:54:23','1')
+

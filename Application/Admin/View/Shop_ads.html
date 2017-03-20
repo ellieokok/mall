@@ -1,0 +1,124 @@
+<section class="content-header">
+    <h1>
+        商城管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">广告管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <!--<div class="mailbox-controls">-->
+                    <!--    <div class="btn-group">-->
+                    <!--        <a href="{:U('Admin/Shop/addAds')}" class="btn btn-danger ">-->
+                    <!--            新增广告-->
+                    <!--        </a>-->
+                    <!--    </div>-->
+                        <!-- /.btn-group -->
+                    <!--</div>-->
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th class="hidden-xs">
+                                    <label><input onchange="checkAll()" type="checkbox" value=""></label>
+                                </th>
+                                <th>ID</th>
+                                <th>店铺ID</th>
+                                <th>分类</th>
+                                <th>名称</th>
+                                <th>介绍</th>
+                                <th>链接</th>
+                                <th>图片</th>
+                                <th>排序</th>
+                                <th>备注</th>
+                                <th>时间</th>
+                                <th>操作</th>
+                            </tr>
+                            <volist name="ads" id="ads">
+                                <tr>
+                                    <td class="hidden-xs">
+                                        <label><input name="checkbox" class="check" type="checkbox"
+                                                      value="{$ads.id}"></label>
+                                    </td>
+                                    <td>
+                                        {$ads.id}
+                                    </td>
+                                    <td>
+                                        {$ads.shop_id}
+                                    </td>                                                                        
+                                    <td>
+                                        <if condition="$ads.adsname eq 1">
+                                            <span class="label label-primary">幻灯片</span>
+                                        <elseif condition="$ads.adsname eq 2"/>
+                                            <span class="label label-info">插件</span>
+                                        <else />
+                                            <span class="label label-warning">广告位</span>
+                                        </if>
+                                    </td>
+                                    <td>
+                                        {$ads.name}
+                                    </td>
+                                    <td>
+                                        {$ads.sub}
+                                    </td>
+                                    <td>
+                                        {$ads.url}
+                                    </td>
+                                    <td>
+                                        <div class="btn-group" style="margin: 0px">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                图片<span class="caret"></span></button>
+                                            <div class="dropdown-menu">
+                                                <img style="height: 200px"
+                                                     src="__PUBLIC__/Uploads/{$ads.savepath}{$ads.savename}">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        {$ads.rank}
+                                    </td>
+                                    <td>
+                                        {$ads.remark}
+                                    </td>
+                                    <td>
+                                        {$ads.time}
+                                    </td>
+                                    <td class="table-action"><a
+                                            href="{:U('Admin/Shop/modAds',array('id'=>$ads['id']))}">修改</a><a
+                                            href="{:U('Admin/Shop/delAds',array('id'=>$ads['id']))}">删除</a></td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-danger"
+                                            onclick="batchUrl('{:U(\'Admin/Shop/delAds\')}')">全部删除
+                                    </button>
+                                </div>
+                                <div class="pull-right">
+                                    {$page}
+                                    <!-- /.btn-group -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

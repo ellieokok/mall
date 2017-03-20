@@ -1,0 +1,84 @@
+<section class="content-header">
+    <h1>
+        用户管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red" style="width: 286px;">
+                <div class="inner">
+                    <img src="{$qrcode}" style="width: 264px"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">员工管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th>用户名</th>
+                                <th>头像</th>
+                                <th>账户</th>
+                                <th>积分</th>
+                                <th>状态</th>
+                                <th>备注</th>
+                                <th>时间</th>
+                                <th>操作</th>
+                            </tr>
+                            <volist name="userList" id="user">
+                                <tr>
+                                    <td>{$user.username}</td>
+                                    <td>
+                                        <if condition="$user.avater neq ''">
+                                            <img src="{$user.avater}" style="width: 48px;height: 48px">
+                                        </if>
+                                    </td>
+                                    <td>{$user.money}</td>
+                                    <td>{$user.score}</td>
+                                    <td>{$user.status}</td>
+                                    <td>{$user.remark}</td>
+                                    <td>{$user.time}</td>
+                                    <td class="table-action"><a
+                                            href="{:U('Home/User/delEmployee',array('id'=>$user['id']))}">删除</a></td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                        <div class="box-footer no-padding">
+                            <div class="mailbox-controls">
+                                <div class="btn-group" style="height:45px">
+                                </div>
+                                <!-- /.btn-group -->
+                                <div class="pull-right">
+                                    {$page}
+                                    <!-- /.btn-group -->
+                                </div>
+                                <!-- /.pull-right -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

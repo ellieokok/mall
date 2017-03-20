@@ -1,0 +1,85 @@
+<section class="content-header">
+    <h1>
+        微信管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- /.col -->
+        <div class="col-md-12">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">微信菜单管理</h3>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <a href="{:U('Home/Weixin/addWxMenu')}" class="btn btn-danger ">
+                                新增菜单
+                            </a>
+                        </div>
+                        <!-- /.btn-group -->
+                    </div>
+                    <div class="table-responsive" style="overflow-x: visible;">
+                        <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr>
+                                <th class="hidden-xs">
+                                    <label><input onchange="checkAll()" type="checkbox" value=""></label>
+                                </th>
+                                <th>上级菜单</th>
+                                <th>菜单名称</th>
+                                <th>类型</th>
+                                <th>网址</th>
+                                <th>关键词</th>
+                                <th>备注</th>
+                                <th>操作</th>
+                            </tr>
+                            <volist name="wxMenu" id="menu">
+                                <tr>
+                                    <td class="hidden-xs">
+                                        <label><input name="checkbox" class="check" type="checkbox" value="{$menu.id}"></label>
+                                    </td>
+                                    <td>{$menu.parent.name}</td>
+                                    <td>{$menu.name}</td>
+                                    <td>
+                                        <if condition="$menu.type eq view">网址</if>
+                                        <if condition="$menu.type eq click">事件</if>
+                                    </td>
+                                    <td>{$menu.url}</td>
+                                    <td>{$menu.key}</td>
+                                    <td>{$menu.remark}</td>
+                                    <td class="table-action"><a
+                                            href="{:U('Home/Weixin/modifyWxMenu',array('id'=>$menu['id']))}">修改</a><a
+                                            href="{:U('Home/Weixin/delWxMenu',array('id'=>$menu['id']))}">删除</a></td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer no-padding">
+                    <div class="mailbox-controls">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger"
+                                    onclick="batchUrl('{:U(\'Home/Weixin/delWxMenu\')}')">全部删除
+                            </button>
+                        </div>
+                        <div class="btn-group">
+                            <a class="btn btn-danger" href="{:U('Admin/Wechat/createWxMenu',array('shopId' => session('homeShopId')))}">生成自定义菜单</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /. box -->
+        </div>
+        <!-- /.col -->
+    </div>
+</section>

@@ -1,0 +1,270 @@
+<section class="content-header">
+    <h1>
+        商城管理
+        <small></small>
+    </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">新增商品</h3>
+                </div>
+                <!-- form start -->
+                <form action="{:U('Home/Shop/addProduct')}" method="post" class="form-horizontal">
+                    <div class="box-body">
+                        <input class="form-control" name="id" placeholder="" value="{$product['id']?$product['id']:0}"
+                               type="hidden">
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品菜单</label>
+
+                            <div class="col-sm-10">
+                                <select name="menu_id" class="form-control">
+                                    <volist name="menuList" id="menuList">
+                                        <option value="{$menuList.id}">{$menuList.name}</option>
+                                    </volist>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品名称</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="name" placeholder="" value="{$product.name}" required
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品子名称</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="subname" placeholder="" value="{$product.subname}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品价格</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="price" placeholder="" value="{$product.price}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品原价格</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="old_price" placeholder="" value="{$product.old_price}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品单位</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="unit" placeholder="" value="{$product.unit}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">赠送积分</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="score" placeholder="" value="{$product.score}"
+                                       type="text">
+                            </div>
+                        </div>
+
+                        <!--<div class="form-group">-->
+                        <!--    <label class="col-sm-2 control-label">商品库存</label>-->
+
+                        <!--    <div class="col-sm-10">-->
+                        <!--        <input class="form-control" name="store" placeholder="" value="{$product.store}"-->
+                        <!--               type="text">-->
+                        <!--    </div>-->
+                        <!--</div>-->
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品排序</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" name="rank" placeholder="" value="{$product.rank}"
+                                       type="text">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">图片</label>
+
+                            <div class="col-sm-10">
+                                <div class="fileupload fileupload-new" data-provides="fileupload">
+                                    <div class="fileupload-new img-thumbnail">
+                                        <empty name="product.file_id"><img
+                                                src="__PUBLIC__/Admin/dist/img/noimage.gif">
+                                            <else/>
+                                            <img src="__PUBLIC__/Uploads/{$product.savepath}{$product.savename}">
+                                        </empty>
+                                        <input class="form-control" name="file_id" id="file_id" placeholder=""
+                                               value="{$product.file_id}"
+                                               type="hidden">
+
+                                        <div class="edit_pic_mask">
+                                            <i class="fa fa-plus-circle" onclick="imageUploader(this,false)"></i>
+                                            <i class="fa fa-minus-circle" onclick="removeImage(this,false)"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品图集</label>
+
+                            <div class="col-sm-10">
+                                <div class="fileupload fileupload-new" data-provides="fileupload" id="albumsClone">
+                                    <volist name="product.albums" id="albums">
+                                        <div class="fileupload-new img-thumbnail">
+                                            <img src="__PUBLIC__/Uploads/{$albums.savepath}{$albums.savename}">
+                                            <input class="form-control" name="albums[]" placeholder=""
+                                                   value="{$albums.id}"
+                                                   type="hidden">
+
+                                            <div class="edit_pic_mask">
+                                                <i class="fa fa-plus-circle" onclick="imageUploader(this,true)"></i>
+                                                <i class="fa fa-minus-circle" onclick="removeImage(this,true)"></i>
+                                            </div>
+                                        </div>
+                                    </volist>
+
+                                    <div class="fileupload-new img-thumbnail">
+                                        <img src="__PUBLIC__/Admin/dist/img/noimage.gif">
+                                        <input class="form-control" name="albums[]" placeholder="" value=""
+                                               type="hidden">
+
+                                        <div class="edit_pic_mask">
+                                            <i class="fa fa-plus-circle" onclick="imageUploader(this,true)"></i>
+                                            <i class="fa fa-minus-circle" onclick="removeImage(this,true)"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2">启用Sku</label>
+
+                            <div class="col-md-7">
+                                <label class="radio-inline"><input name="psku" type="radio"
+                                    <if condition="$product.psku eq 1">checked="checked"</if>
+                                    value="1"><span>开启</span></label>
+                                <label class="radio-inline"><input name="psku" type="radio"
+                                    <if condition="$product.psku eq 0">checked="checked"</if>
+                                    value="0"><span>关闭</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2">商品标签</label>
+
+                            <div class="col-md-7">
+                                <volist name="labelList" id="label">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="label[]" value="{$label.name}"
+                                            <volist name="product.label" id="vo">
+                                                <if condition="$vo eq $label['name']">checked="checked"</if>
+                                            </volist>
+                                            >{$label.name}
+                                        </label>
+                                    </div>
+                                </volist>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2">商品状态</label>
+
+                            <div class="col-md-7">
+                                <label class="radio-inline"><input name="status" type="radio"
+                                    <if condition="$product.status eq 1">checked="checked"</if>
+                                    value="1"><span>出售</span></label>
+                                <label class="radio-inline"><input name="status" type="radio"
+                                    <if condition="$product.status eq -1">checked="checked"</if>
+                                    value="-1"><span>下架</span></label>
+                                <label class="radio-inline"><input name="status" type="radio"
+                                    <if condition="$product.status eq 0">checked="checked"</if>
+                                    value="0"><span>售罄</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">备注</label>
+
+                            <div class="col-md-10">
+                                <input class="form-control" name="remark" placeholder="" value="{$product.remark}"
+                                       type="text">
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品详情</label>
+
+                            <div class="col-sm-10">
+                                <!-- 加载编辑器的容器 -->
+                                <script id="UEditor" name="detail" type="text/plain" style="height:500px;">
+                                    {$product.detail}
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <div class="col-sm-2">
+                            <button type="submit" class="btn btn-block btn-danger">保存</button>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <button type="button" class="btn btn-block btn-default" onclick="history.go(-1)">取消</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+</section>
+<script type="text/javascript">
+    $(function () {
+        //实例化编辑器异步载入
+        var editor = new UE.ui.Editor();
+        editor.render("UEditor");
+
+        if ('{$product}') {
+            $('select[name="menu_id"]').val('{$product.menu_id}');
+        }
+    });
+
+    function addAttribute() {
+        var obj = $('.cloneAttr').first().clone();
+        obj.find('input').val('');
+        $('#addAttrBtn').before(obj);
+    }
+</script>

@@ -1,0 +1,523 @@
+[ 2016-06-10T07:39:15+08:00 ] 123.125.71.82 /multi/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005963s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005051s ]
+
+[ 2016-06-10T08:12:35+08:00 ] 123.125.71.116 /multi/Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-06-10T10:09:07+08:00 ] 223.73.168.70 /multi/Admin/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+NOTIC: [8] Undefined index: status /www/users/HA84691/WEB/multi/Application/Admin/Controller/OrderController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pay_status /www/users/HA84691/WEB/multi/Application/Admin/Controller/OrderController.class.php 第 20 行.
+NOTIC: [8] Undefined index: day /www/users/HA84691/WEB/multi/Application/Admin/Controller/OrderController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\OrderModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `multi_order` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_order` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\OrderContactModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderContactModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_order_contact` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='43' ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/UserModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `multi_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0028s ]
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+NOTIC: [2048] Declaration of Common\Model\OrderDetailModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/OrderDetailModel.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `multi_order_detail` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='43' )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `multi_shop` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='42' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='42' )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='41' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='41' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0107s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='40' ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0116s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='40' )  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='39' ) LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='39' )  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='38' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='38' )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='37' ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='37' )  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='36' ) LIMIT 1   [ RunTime:0.0066s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='36' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0074s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='35' ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='35' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='34' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='34' )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='149' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='33' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='33' )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='149' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='32' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='32' )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='31' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='31' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='30' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='30' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='29' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='29' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='28' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='28' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='149' ) LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='27' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='27' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='26' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='26' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='25' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='25' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='24' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='24' )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='23' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='23' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='22' ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='22' )  [ RunTime:0.2062s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='21' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='21' )  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='20' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='20' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_order_contact` WHERE ( 1=1 AND order_id='19' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_order_detail` WHERE ( 1=1 AND order_id='19' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 3 for Common\Model\OrderModel::getMethod(), called in /www/users/HA84691/WEB/multi/Application/Admin/Controller/OrderController.class.php on line 33 and defined /www/users/HA84691/WEB/multi/Application/Common/Model/OrderModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `multi_order` LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2048] Declaration of Common\Model\ProductModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+NOTIC: [2048] Declaration of Common\Model\ProductModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductModel.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `multi_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `multi_product` ORDER BY id desc  [ RunTime:0.0040s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/MenuModel.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `multi_menu` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2048] Declaration of Common\Model\FileModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+NOTIC: [2048] Declaration of Common\Model\FileModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/FileModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `multi_file` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2048] Declaration of Common\Model\CommentModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+NOTIC: [2048] Declaration of Common\Model\CommentModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/CommentModel.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `multi_comment` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='33' )  [ RunTime:0.0032s ]
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+NOTIC: [2048] Declaration of Common\Model\ProductSkuModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /www/users/HA84691/WEB/multi/Application/Common/Model/ProductSkuModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `multi_product_sku` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='33' )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='192' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='32' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='32' )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='189' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='58' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='31' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='31' )  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='30' )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='30' )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='186' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='29' )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='29' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='184' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='28' )  [ RunTime:0.0082s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='28' )  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='27' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='27' )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='177' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='26' )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='26' )  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='40' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='25' )  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='25' )  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='175' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0111s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='40' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='24' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='24' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='146' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='23' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='23' )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='147' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='22' )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='22' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='140' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='21' )  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='21' )  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0055s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='19' )  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='19' )  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.2044s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='18' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='18' )  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='17' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='17' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='16' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='16' )  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0041s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='15' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='15' )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='14' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='14' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='13' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='13' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='12' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='12' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='11' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='11' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='10' )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='10' )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='9' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='9' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='8' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='8' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='7' )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='7' )  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='6' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='6' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='5' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='5' )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='4' )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='3' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='3' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='2' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='2' )  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_menu` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `multi_file` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `multi_comment` WHERE ( 1=1 AND product_id='1' )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `multi_product_sku` WHERE ( 1=1 AND product_id='1' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `multi_shop` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 313 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 320 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 327 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 389 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant sku_name - assumed 'sku_name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 506 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 507 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 580 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 581 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 582 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 583 行.
+NOTIC: [8] Undefined variable: orderPost /www/users/HA84691/WEB/multi/Application/Runtime/Cache/Admin/27fc82e3375a7891ced47e8a7d18e238.php 第 584 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-06-10T12:56:32+08:00 ] 37.112.230.208 /multi/Admin/Config/wxTplMsgSet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [2048] Declaration of Admin\Controller\BaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') /www/users/HA84691/WEB/multi/Application/Admin/Controller/BaseController.class.php 第 89 行.
+
+[ 2016-06-10T12:56:32+08:00 ] 37.112.230.208 /multi/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-06-10T18:46:56+08:00 ] 174.129.237.157 /multi/Admin/Public/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+

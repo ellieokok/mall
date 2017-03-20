@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>签到系统</title>
+    <meta name="format-detection" content="telephone=no, address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- apple devices fullscreen -->
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link href="__CSS__/font-awesome.min.css" rel="stylesheet">
+    <link href="__CSS__/animate.css" rel="stylesheet">
+    <link href="__CSS__/common.css" rel="stylesheet">
+    <link href="__CSS__/sign.css" rel="stylesheet">
+</head>
+<body>
+<div class="container container-fill">
+    <div class="pcenter-main">
+        <div class="head">
+            <div class="pdetail">
+                <div class="img-circle"><img src="{$user.avater}"></div>
+                <div class="pull-left">
+                    <span class="name">{$user.username}</span>
+                    <span class="type">会员ID: {$user.id}</span>
+                </div>
+            </div>
+            <div class="head-nav">
+                <a class="head-nav-list">积分<span id="myscore">{$user.score}</span></a>
+                <a class="head-nav-list"><span class="pull-center"><span class="btn btn-default" onclick="signIn(this)"
+                                                                         style="color: #fff;background-color: transparent;border-color: #fff;">今日签到</span></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-container">
+        <div class="wrapper">
+            <ul class="list-group">
+                <volist name="product" id="product">
+                    <li class="list-group-item">
+                        <div class="con">
+                            <div class="list-hd">
+                                <h5>{$product.name}</h5>
+                            </div>
+                            <div class="list-con">
+                                <img src="__PUBLIC__/Uploads/{$product.image}">
+                            </div>
+                            <div class="list-ft">
+                                <div class="pull-left" style="margin-left: 12px;">积分:<b>{$product.score}</b></div>
+                                <div class="pull-right btn btn-default" style="margin-right: 12px;"><a
+                                        onclick="doCart(this , '{$product.score}' , '{$product.id}')" style="color: black;">立即兑换</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+    </div>
+    <div id="cover2" style="display: none; position: fixed; width: 100%; height: 100%;"></div>
+    <div class="tc_c2" id="join_box"
+         style="left: 0px; bottom: 0px; z-index: 3000; position: fixed; display: none;width: 100%;">
+        <div class="join_box_Xq_out" style="max-height: 641px;">
+            <div class="tc_c_close">
+                <div><img title="关闭" onclick="hidePop(this);" ontouchstart="" src="__IMG__/share_qr_close3.png"></div>
+            </div>
+            <div class="join_box_Xq">
+                <ul id="ul_join_property" class="pop_massage">
+                    <li>
+                        <div class="optionsName">姓名</div>
+                        <div class="inpoutK">
+                            <input value="{$contact.name}" type="text" class="font0" name="name" id="name">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="optionsName">手机</div>
+                        <div class="inpoutK">
+                            <input value="{$contact.phone}" type="text" class="font0" name="phone" id="phone">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="optionsName">地址</div>
+                        <div class="inpoutK">
+                            <input value="{$contact.address}" type="text" class="font0" name="address" id="address">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="optionsName">备注</div>
+                        <div class="inpoutK">
+                            <input value="" type="text" class="font0" name="note" id="note">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tc_c_btn2" ontouchstart="" id="xdBtn">
+                <a title="返回" class="fanHui" href="javascript:void(0);" ontouchstart="" onclick="_joinBox._prev()"
+                   style="display: none;"></a>
+
+                <div class="join_Btn">
+                    <input id="input_submit" class="blueBtn" type="submit" value="我要报名"
+                           style="display: none; width: 100%;">
+                    <a style="width: 100%;" id="a_submit" class="blueBtn font02" href="javascript:void(0);"
+                       onclick="submitOrder()">提交</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="alert" class="alert" style="display: none; top: 165px; left: 42.5px;text-align: center;">
+        <div id="alert_title">温馨提示</div>
+        <div id="alert_text"></div>
+        <div id="alert_button"><button id="alert_button_ok" class="button_3" ontouchstart="" onclick="hideAlert()">知道了</button></div>
+        <div id="alert_cancel" class="alert_cancel" ontouchstart="" onclick=""></div>
+    </div>
+</div>
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<script type="text/javascript" src="__JS__/bootstrap.min.js"></script>
+<script>
+    var id = 0;
+    var score = 0;
+    function hidePop(){
+        $("#join_box").hide();
+        $("#cover2").hide();
+    }
+    function showPop(){
+        $("#join_box").show();
+        $("#cover2").show();
+    }
+    function doCart(obj , scoreIn ,idIn){
+        if(parseFloat(scoreIn) > parseFloat($('#myscore').html())){
+            alert("积分不足!");
+            return;
+        }
+        id = idIn;
+        score = scoreIn;
+        showPop();
+    }
+
+    var signFlag = true;
+    function signIn(obj){
+        $.ajax({
+            type: "post",
+            url: "{:u_addons('Sign://Index/sign')}",
+            data: {
+
+            },
+            success: function (data) {
+                if(data){
+                    var json = eval(data)
+                    $("#alert").show();
+                    if (typeof json.score != "undefined") {
+                        $("#alert_text").html("恭喜您获得"+json.score+"积分");
+                    }else{
+                        $("#alert_text").html("对不起，您已签到！");
+                    }
+
+                }
+            },
+            beforeSend: function () {
+
+            },
+            complete: function () {
+            }
+
+        });
+
+        // $("#alert").show();
+    }
+    function hideAlert(){
+        $("#alert").hide();
+        location.reload();
+    }
+    var submitFlag = true;
+    function submitOrder(){
+        if (submitFlag == false) {
+            alert("请不要重复操作!");
+            return;
+        };
+        var name = $('#name').val();
+        var phone = $('#phone').val();
+        var address = $('#address').val();
+        var note = $('#note').val();
+
+        if (name.length == 0 || phone.length == 0 || address.length == 0) {
+            alert("请核对输入的信息!");
+            return;
+        };
+        submitFlag = false;
+
+        $.ajax({
+            type: "post",
+            url: "{:u_addons('Sign://Index/addOrder')}",
+            data: {
+                name: name,
+                phone: phone,
+                id: id,
+                score: score,
+                address: address,
+                note: note
+            },
+            success: function (data) {
+                if(data){
+                    hidePop();
+                    alert("商品兑换成功!");
+                    location.reload();
+                }
+            },
+            beforeSend: function () {
+
+            },
+            complete: function () {
+            }
+
+        });
+    }
+</script>
+</body>
+</html>
